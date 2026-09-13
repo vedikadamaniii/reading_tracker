@@ -1,0 +1,66 @@
+.epigraph {
+  position: relative;
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 0.4rem 1.5rem 0;
+  text-align: center;
+}
+
+.epigraph::before {
+  content: '\201C';
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--color-accent);
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  color: var(--color-text);
+  text-wrap: balance;
+}
+
+.attribution {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-text-muted);
+}
+
+.attribution::before {
+  content: '\2014\00a0';
+  color: var(--color-accent);
+}
+
+.attribution cite {
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .epigraph {
+    margin-top: 2.2rem;
+  }
+
+  .epigraph::before {
+    top: -2.2rem;
+    font-size: 4rem;
+  }
+
+  .text {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,28 @@
+.row {
+  display: inline-flex;
+  gap: 0.1rem;
+}
+
+.slot {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  line-height: 1;
+}
+
+.bg {
+  color: var(--color-border);
+}
+
+.fg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--color-gold);
+}
+
+.picker {
+  cursor: pointer;
+}
