@@ -13,13 +13,23 @@ import { TBRTab } from './tabs/TBRTab'
 import type { Book, Goal, NewBook } from './types'
 
 const CURRENT_YEAR = new Date().getFullYear()
+const LOAD_TIMEOUT_MS = 8000
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return Promise.race([
+    promise,
+    new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error(`Timed out after ${ms}ms`)), ms),
+    ),
+  ])
+}
 
 function App() {
   const [tab, setTab] = useState<TabKey>('tbr')
   const [books, setBooks] = useState<Book[]>([])
   const [goal, setGoal] = useState<Goal | null>(null)
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
+  const [unavailable, setUnavailable] = useState(false)
 
   useEffect(() => {
     loadAll()
@@ -29,14 +39,17 @@ function App() {
 
   async function loadAll() {
     setLoading(true)
-    setError(null)
+    setUnavailable(false)
     try {
-      const [booksData, goalData] = await Promise.all([getBooks(), getGoal(CURRENT_YEAR)])
+      const [booksData, goalData] = await withTimeout(
+        Promise.all([getBooks(), getGoal(CURRENT_YEAR)]),
+        LOAD_TIMEOUT_MS,
+      )
       setBooks(booksData)
       setGoal(goalData)
     } catch (err) {
       console.error(err)
-      setError('Could not load your data. Check your Supabase connection.')
+      setUnavailable(true)
     } finally {
       setLoading(false)
     }
@@ -92,7 +105,7 @@ function App() {
         )}
       </header>
 
-      {!loading && (
+      {!loading && !unavailable && (
         <div className={styles.shelfWrap}>
           <FavoritesShelf books={books} />
         </div>
@@ -103,9 +116,12 @@ function App() {
       </div>
 
       <div className={styles.content}>
-        {error && <div className={styles.errorBanner}>{error}</div>}
         {loading ? (
           <div className={styles.stateMessage}>Loading your library…</div>
+        ) : unavailable ? (
+          <div className={styles.stateMessage}>
+            The library is temporarily unavailable. Please check back soon.
+          </div>
         ) : (
           <>
             {tab === 'library' && (
