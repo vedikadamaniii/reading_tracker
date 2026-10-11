@@ -12,6 +12,10 @@
 // Usage:
 //   VITE_GOOGLE_BOOKS_API_KEY=... node scripts/build-static-library.mjs \
 //     <tracker.csv> <tbr.csv> [id-export.csv] [title-renames.csv]
+//
+// After the first run, only the two sheet exports are needed: each book
+// remembers which sheet row it came from (source_key), so its id, series
+// tags, renamed title, cover and page count carry over to the next build.
 
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
@@ -109,7 +113,7 @@ if (renamesPath) {
 const seriesById = new Map(seriesTags.map((t) => [t.id, t]))
 
 const previous = existsSync(OUT_PATH) ? JSON.parse(readFileSync(OUT_PATH, 'utf-8')) : []
-const previousById = new Map(previous.map((b) => [b.id, b]))
+const previousByKey = new Map(previous.map((b) => [b.source_key, b]))
 
 // --- Google Books enrichment (cover + page count), reused across runs ---
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -144,13 +148,15 @@ const base = Date.parse('2024-01-01T00:00:00Z')
 const out = []
 let looked = 0
 for (const [i, b] of books.entries()) {
-  const id = idByKey.get(`${keyOf(b.title)}|${keyOf(b.author ?? '')}`) ?? fallbackId(b)
-  const series = seriesById.get(id)
-  const prev = previousById.get(id)
+  const source_key = `${keyOf(b.title)}|${keyOf(b.author ?? '')}`
+  const prev = previousByKey.get(source_key)
+  const id = idByKey.get(source_key) ?? prev?.id ?? fallbackId(b)
+  const series = seriesById.get(id) ?? prev
   const book = {
     id,
+    source_key,
     ...b,
-    title: renames.get(id) ?? b.title,
+    title: renames.get(id) ?? prev?.title ?? b.title,
     cover_url: prev?.cover_url ?? null,
     google_books_id: prev?.google_books_id ?? null,
     page_count: prev?.page_count ?? null,

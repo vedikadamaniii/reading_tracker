@@ -1,6 +1,7 @@
 [
   {
     "id": "c8f53371-8fc8-42ea-a6a0-ef5721389fa8",
+    "source_key": "the cruel prince|holly black",
     "title": "The Cruel Prince",
     "author": "Holly Black",
     "genre": "Scifi, Fantasy",
@@ -18,6 +19,7 @@
   },
   {
     "id": "62496aff-4a02-4e43-8e51-daab90e9f46b",
+    "source_key": "the wicked king|holly black",
     "title": "The Wicked King",
     "author": "Holly Black",
     "genre": "Scifi, Fantasy",
@@ -35,6 +37,7 @@
   },
   {
     "id": "45af11b8-6716-4c26-9318-562c857c0a59",
+    "source_key": "the queen of nothing|holly black",
     "title": "The Queen of Nothing",
     "author": "Holly Black",
     "genre": "Scifi, Fantasy",
@@ -52,6 +55,7 @@
   },
   {
     "id": "441fc2c7-2702-410d-9087-e5c724d404e8",
+    "source_key": "the guernsey literary and potato peel society|annie barrows",
     "title": "The Guernsey Literary and Potato Peel Pie Society",
     "author": "Annie Barrows",
     "genre": "Historical Fiction",
@@ -69,6 +73,7 @@
   },
   {
     "id": "2570c910-d2ee-4364-9c57-00aa4e9d03c5",
+    "source_key": "the atlas six|olivie blake",
     "title": "The Atlas Six",
     "author": "Olivie Blake",
     "genre": "Scifi, Fantasy",
@@ -86,6 +91,7 @@
   },
   {
     "id": "788921ba-8c69-4209-9d9c-f433c4a9bff9",
+    "source_key": "normal people|sally rooney",
     "title": "Normal People",
     "author": "Sally Rooney",
     "genre": "Psychological Fiction",
@@ -103,6 +109,7 @@
   },
   {
     "id": "1dcd1bde-d6ee-4abd-8926-4bc060953266",
+    "source_key": "daisy jones & the six|taylor jenkins reid",
     "title": "Daisy Jones & The Six",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -120,6 +127,7 @@
   },
   {
     "id": "75ca05ca-aefb-464f-88be-95ad0b567468",
+    "source_key": "verity|colleen hoover",
     "title": "Verity",
     "author": "Colleen Hoover",
     "genre": "Thriller, Mystery, Psychological",
@@ -137,6 +145,7 @@
   },
   {
     "id": "f2edccde-af93-4495-a775-028b57b2cf70",
+    "source_key": "the love hypothesis|ali hazelwood",
     "title": "The Love Hypothesis",
     "author": "Ali Hazelwood",
     "genre": "Romance (Brain rot)",
@@ -154,6 +163,7 @@
   },
   {
     "id": "1ded874d-d63b-4311-a20e-a6c76b97c8fd",
+    "source_key": "we were liars|e lockhart",
     "title": "We Were Liars",
     "author": "E Lockhart",
     "genre": "Thriller, Mystery, Psychological",
@@ -171,6 +181,7 @@
   },
   {
     "id": "b3836ebe-3c06-4fce-8a45-faf5df6bf074",
+    "source_key": "the silent patient|alex michaelides",
     "title": "The Silent Patient",
     "author": "Alex Michaelides",
     "genre": "Thriller, Mystery, Psychological",
@@ -188,6 +199,7 @@
   },
   {
     "id": "aeabb534-9674-4695-9913-0ed5baf1e6a4",
+    "source_key": "a lesson in vengeance|victoria lee",
     "title": "A Lesson In Vengeance",
     "author": "Victoria Lee",
     "genre": "Horror, Thriller, Mystery",
@@ -205,6 +217,7 @@
   },
   {
     "id": "4c29f69e-4966-4bcf-82ec-21f386aaad41",
+    "source_key": "reminders of him|colleen hoover",
     "title": "Reminders Of Him",
     "author": "Colleen Hoover",
     "genre": "Romance (Brain rot)",
@@ -222,6 +235,7 @@
   },
   {
     "id": "2513e8fb-dfab-480f-95dd-32a68c93771e",
+    "source_key": "november 9|colleen hoover",
     "title": "November 9",
     "author": "Colleen Hoover",
     "genre": "Romance (Brain rot)",
@@ -239,6 +253,7 @@
   },
   {
     "id": "399a1894-5599-4b63-9df0-d44c0e2a40bb",
+    "source_key": "it ends with us|colleen hoover",
     "title": "It Ends With Us",
     "author": "Colleen Hoover",
     "genre": "Romance, Domestic Violence",
@@ -256,6 +271,7 @@
   },
   {
     "id": "529da332-c34c-4a7c-898c-51fcd3a58bc0",
+    "source_key": "one of us is lying|karen mcmanus",
     "title": "One Of Us Is Lying",
     "author": "Karen McManus",
     "genre": "Mystery",
@@ -273,6 +289,7 @@
   },
   {
     "id": "16eb0b78-eceb-4fb1-9796-c3405c861c96",
+    "source_key": "the lost apothecary|sarah penner",
     "title": "The Lost Apothecary",
     "author": "Sarah Penner",
     "genre": "Historical Fiction",
@@ -290,6 +307,7 @@
   },
   {
     "id": "cd1806dc-6092-42df-837c-e22b655a4ad0",
+    "source_key": "my policeman|bethan roberts",
     "title": "My Policeman",
     "author": "Bethan Roberts",
     "genre": "Historical Fiction",
@@ -307,6 +325,7 @@
   },
   {
     "id": "30b16d5b-bdac-4edd-9164-a1eb16d2dda2",
+    "source_key": "the seven husbands of evelyn hugo|taylor jenkins reid",
     "title": "The Seven Husbands Of Evelyn Hugo",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -324,6 +343,7 @@
   },
   {
     "id": "7872127c-21fe-4538-bd9c-b19bca297854",
+    "source_key": "malibu rising|taylor jenkins reid",
     "title": "Malibu Rising",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -341,6 +361,7 @@
   },
   {
     "id": "ec7476bd-c2f6-46ee-961b-dcb1941501b9",
+    "source_key": "persuasion|jane austen",
     "title": "Persuasion",
     "author": "Jane Austen",
     "genre": "Classic",
@@ -358,6 +379,7 @@
   },
   {
     "id": "bd166f22-7daf-40a7-b98d-e4087718c6cd",
+    "source_key": "brave new world|aldous huxley",
     "title": "Brave New World",
     "author": "Aldous Huxley",
     "genre": "Classic, Scifi, Dystopian",
@@ -375,6 +397,7 @@
   },
   {
     "id": "3cb67a48-efee-4e6a-85a3-d4e37b4e2351",
+    "source_key": "the plague|albert camus",
     "title": "The Plague",
     "author": "Albert Camus",
     "genre": "Historical Fiction",
@@ -392,6 +415,7 @@
   },
   {
     "id": "6ad5e505-fbc8-4b2b-aa93-90b0875ef973",
+    "source_key": "the secret history|donna tartt",
     "title": "The Secret History",
     "author": "Donna Tartt",
     "genre": "Psychological Thriller",
@@ -409,6 +433,7 @@
   },
   {
     "id": "9eabf696-f082-41df-91dd-59cf6fa6c5ce",
+    "source_key": "twisted love|ana huang",
     "title": "Twisted Love",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -426,6 +451,7 @@
   },
   {
     "id": "7b6d2d47-f59a-4cbb-a1ed-b16abde861f8",
+    "source_key": "the fury|alex michaelides",
     "title": "The Fury",
     "author": "Alex Michaelides",
     "genre": "Thriller, Mystery, Psychological",
@@ -443,6 +469,7 @@
   },
   {
     "id": "319b6526-4f9d-420a-b234-cfbe99ab4413",
+    "source_key": "the blue bar|damyanti biswas",
     "title": "The Blue Bar",
     "author": "Damyanti Biswas",
     "genre": "Thriller, Mystery, Suspense, Police",
@@ -460,6 +487,7 @@
   },
   {
     "id": "e3de99bd-88ec-4a08-b12a-bbd2691731fa",
+    "source_key": "the blue monsoon|damyanti biswas",
     "title": "The Blue Monsoon",
     "author": "Damyanti Biswas",
     "genre": "Thriller, Mystery, Suspense, Police",
@@ -477,6 +505,7 @@
   },
   {
     "id": "62a5aba7-ce7d-49b9-b5c6-255a795bcce0",
+    "source_key": "a deadly education|naomi novik",
     "title": "A Deadly Education",
     "author": "Naomi Novik",
     "genre": "Scifi, Fantasy",
@@ -494,6 +523,7 @@
   },
   {
     "id": "03759cbc-a772-4018-b519-e761bd7c1e33",
+    "source_key": "the last graduate|naomi novik",
     "title": "The Last Graduate",
     "author": "Naomi Novik",
     "genre": "Scifi, Fantasy",
@@ -511,6 +541,7 @@
   },
   {
     "id": "971c0789-2e35-469e-a7bd-82920aa4fc93",
+    "source_key": "the golden enclaves|naomi novik",
     "title": "The Golden Enclaves",
     "author": "Naomi Novik",
     "genre": "Scifi, Fantasy",
@@ -528,6 +559,7 @@
   },
   {
     "id": "e98def0d-7b0e-496a-be56-27f0bbee7e17",
+    "source_key": "the ex vows|jessica joyce",
     "title": "The Ex Vows",
     "author": "Jessica Joyce",
     "genre": "Romance",
@@ -545,6 +577,7 @@
   },
   {
     "id": "fcb2dd3b-dff0-4acb-b53b-cf0b3a43c1f3",
+    "source_key": "american royals|katherine mcgee",
     "title": "American Royals",
     "author": "Katherine McGee",
     "genre": "Romance, Drama",
@@ -562,6 +595,7 @@
   },
   {
     "id": "94b8f446-d5a3-42cb-923b-01c9312410dc",
+    "source_key": "majesty|katherine mcgee",
     "title": "Majesty",
     "author": "Katherine McGee",
     "genre": "Romance, Drama",
@@ -579,6 +613,7 @@
   },
   {
     "id": "d5ee582b-b8d7-4387-8d24-67f46b689ce4",
+    "source_key": "rivals|katherine mcgee",
     "title": "Rivals",
     "author": "Katherine McGee",
     "genre": "Romance, Drama",
@@ -596,6 +631,7 @@
   },
   {
     "id": "4d9123c1-b8ce-48a9-95e3-beef356f81b6",
+    "source_key": "reign|katherine mcgee",
     "title": "Reign",
     "author": "Katherine McGee",
     "genre": "Romance, Drama",
@@ -613,6 +649,7 @@
   },
   {
     "id": "69ac7639-ff75-473e-b41f-dd10a8cd98a8",
+    "source_key": "carrie soto is back|taylor jenkins reid",
     "title": "Carrie Soto Is Back",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -630,6 +667,7 @@
   },
   {
     "id": "115433b8-d700-4863-8594-a09f51798f22",
+    "source_key": "evidence of the affair|taylor jenkins reid",
     "title": "Evidence Of The Affair",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -647,6 +685,7 @@
   },
   {
     "id": "4c914f77-011a-4136-a5c4-2e5892d29f47",
+    "source_key": "the things we cannot say|kelly rimmer",
     "title": "The Things We Cannot Say",
     "author": "Kelly Rimmer",
     "genre": "Historical Fiction",
@@ -664,6 +703,7 @@
   },
   {
     "id": "d73ec2ee-fc6f-42ae-bcc8-1509b13902df",
+    "source_key": "the vegetarian|han kang",
     "title": "The Vegetarian",
     "author": "Han Kang",
     "genre": "Contemporary Fiction",
@@ -681,6 +721,7 @@
   },
   {
     "id": "8d9888db-1de7-4f13-813c-e6b10b4a1d1f",
+    "source_key": "the happy couple|naoise dolan",
     "title": "The Happy Couple",
     "author": "Naoise Dolan",
     "genre": "Domestic Fiction",
@@ -698,6 +739,7 @@
   },
   {
     "id": "78018187-7df3-4a59-b8c9-fd2feb68a84f",
+    "source_key": "the wedding people|alison espach",
     "title": "The Wedding People",
     "author": "Alison Espach",
     "genre": "Romance",
@@ -715,6 +757,7 @@
   },
   {
     "id": "8b8e0a20-8c79-44fb-aeba-0859acec3611",
+    "source_key": "my murder|katie williams",
     "title": "My Murder",
     "author": "Katie Williams",
     "genre": "Thriller, Dystopian",
@@ -732,6 +775,7 @@
   },
   {
     "id": "80167839-6312-43fa-9c1f-daefbfec5d95",
+    "source_key": "the invisible life of addie la rue|v e schwab",
     "title": "The Invisible Life of Addie LaRue",
     "author": "V E Schwab",
     "genre": "Fantasy Fiction, Historical Fiction",
@@ -749,6 +793,7 @@
   },
   {
     "id": "766c12c2-27a2-4d10-ac35-2b3cfed4e2c3",
+    "source_key": "slow dance|rainbow rowell",
     "title": "Slow Dance",
     "author": "Rainbow Rowell",
     "genre": "Contemporary Romance, coming of age",
@@ -766,6 +811,7 @@
   },
   {
     "id": "fc04f32b-8154-46bd-929e-3adcd16ff07b",
+    "source_key": "a court of thorn and roses|sarah j mass",
     "title": "A Court of Thorns and Roses",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction, Romance",
@@ -783,6 +829,7 @@
   },
   {
     "id": "2076f9b4-47bb-4dd5-be31-921b26916c65",
+    "source_key": "a court of mist and fury|sarah j mass",
     "title": "A Court Of Mist And Fury",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction, Romance",
@@ -800,6 +847,7 @@
   },
   {
     "id": "61f04417-93db-422d-8335-a034ad936178",
+    "source_key": "a court of wings and ruin|sarah j mass",
     "title": "A Court Of Wings And Ruin",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction, Romance",
@@ -817,6 +865,7 @@
   },
   {
     "id": "7023ae4f-17c2-483b-ae23-85fde84676db",
+    "source_key": "a court of frost and starlight|sarah j mass",
     "title": "A Court Of Frost And Starlight",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction, Romance",
@@ -834,6 +883,7 @@
   },
   {
     "id": "7d37a0fc-3101-4c6b-999c-1fb8a0d9efb7",
+    "source_key": "a court of silver flames|sarah j mass",
     "title": "A Court Of Silver Flames",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction, Romance",
@@ -851,6 +901,7 @@
   },
   {
     "id": "fc8e265d-9a84-457c-80b5-3d7107158210",
+    "source_key": "divine rivals|rebecca ross",
     "title": "Divine Rivals",
     "author": "Rebecca Ross",
     "genre": "Fantasy, Romance",
@@ -868,6 +919,7 @@
   },
   {
     "id": "e9c1cee6-c912-4493-82a4-ed5436668e3c",
+    "source_key": "twisted games|anna huang",
     "title": "Twisted Games",
     "author": "Anna Huang",
     "genre": "Romance",
@@ -885,6 +937,7 @@
   },
   {
     "id": "e1338147-fc9d-4716-be09-2d6e8372e7a7",
+    "source_key": "twisted hate|anna huang",
     "title": "Twisted Hate",
     "author": "Anna Huang",
     "genre": "Romance",
@@ -902,6 +955,7 @@
   },
   {
     "id": "95c47627-e6cf-4852-b39b-e97d1c4d7810",
+    "source_key": "the favorites|layne fargo",
     "title": "The Favorites",
     "author": "Layne Fargo",
     "genre": "Coming of age, Contemporary Fiction",
@@ -919,6 +973,7 @@
   },
   {
     "id": "3918ef88-72a8-48fe-8021-d90400551f16",
+    "source_key": "how to end a love story|yulin kuang",
     "title": "How To End A Love Story",
     "author": "Yulin Kuang",
     "genre": "Romance",
@@ -936,6 +991,7 @@
   },
   {
     "id": "dfcd2a68-6634-470a-b776-737493b959cd",
+    "source_key": "caraval|stephanie garber",
     "title": "Caraval",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -953,6 +1009,7 @@
   },
   {
     "id": "c79eb49a-3157-47f3-b116-cd928cb269e2",
+    "source_key": "you, with a view|jessica joyce",
     "title": "You, With A View",
     "author": "Jessica Joyce",
     "genre": "Romance",
@@ -970,6 +1027,7 @@
   },
   {
     "id": "50a7b7fb-094f-4e70-8d8c-5413d3b379bd",
+    "source_key": "the paradise problem|christina lauren",
     "title": "The Paradise Problem",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -987,6 +1045,7 @@
   },
   {
     "id": "f8d6ebcd-edd8-4df4-80b9-4ea4309fae9c",
+    "source_key": "better than the movies|lynn painter",
     "title": "Better Than The Movies",
     "author": "Lynn Painter",
     "genre": "Romance",
@@ -1004,6 +1063,7 @@
   },
   {
     "id": "2dce3019-ad98-4739-a803-5a7a46de499c",
+    "source_key": "nothing like the movies|lynn painter",
     "title": "Nothing Like The Movies",
     "author": "Lynn Painter",
     "genre": "Romance",
@@ -1021,6 +1081,7 @@
   },
   {
     "id": "b0fd3d2b-774b-4dcc-9abb-1b9b746a7479",
+    "source_key": "the summer i turned pretty|jenny han",
     "title": "The Summer I Turned Pretty",
     "author": "Jenny Han",
     "genre": "Romance",
@@ -1038,6 +1099,7 @@
   },
   {
     "id": "784f4c05-04c0-4797-8b95-c19023b15b69",
+    "source_key": "it's not summer without you|jenny han",
     "title": "It's Not Summer Without You",
     "author": "Jenny Han",
     "genre": "Romance",
@@ -1055,6 +1117,7 @@
   },
   {
     "id": "be95bd3f-fc33-4504-b02d-edc0ad3fb16e",
+    "source_key": "we'll always have summer|jenny han",
     "title": "We'll Always Have Summer",
     "author": "Jenny Han",
     "genre": "Romance",
@@ -1072,6 +1135,7 @@
   },
   {
     "id": "e801e387-ecea-43ce-9efe-b1e23ec906a7",
+    "source_key": "the risk|s t abby",
     "title": "The Risk",
     "author": "S T Abby",
     "genre": "Thriller, Romance",
@@ -1089,6 +1153,7 @@
   },
   {
     "id": "39111a1d-4ecc-481e-9f31-97cfd203eb15",
+    "source_key": "sidetracked|s t abby",
     "title": "Sidetracked",
     "author": "S T Abby",
     "genre": "Thriller, Romance",
@@ -1106,6 +1171,7 @@
   },
   {
     "id": "204598d8-8084-4bd6-bbe2-729d42bea812",
+    "source_key": "scarlet angel|s t abby",
     "title": "Scarlet Angel",
     "author": "S T Abby",
     "genre": "Thriller, Romance",
@@ -1123,6 +1189,7 @@
   },
   {
     "id": "c2f0e8f6-c45d-4c7c-ab37-21fe48dd36f2",
+    "source_key": "all the lies|s t abby",
     "title": "All The Lies",
     "author": "S T Abby",
     "genre": "Thriller, Romance",
@@ -1140,6 +1207,7 @@
   },
   {
     "id": "3dc0c0fa-041e-48d8-a159-f7782222529c",
+    "source_key": "paint it all red|s t abby",
     "title": "Paint It All Red",
     "author": "S T Abby",
     "genre": "Thriller, Romance",
@@ -1157,6 +1225,7 @@
   },
   {
     "id": "fc411244-f1b0-4c2e-991b-406a66f748a1",
+    "source_key": "great big beautiful life|emily henry",
     "title": "Great Big Beautiful Life",
     "author": "Emily Henry",
     "genre": "Contemporary Romance",
@@ -1174,6 +1243,7 @@
   },
   {
     "id": "b65f029c-2461-4efb-9f28-5647d139c0d1",
+    "source_key": "ruthless creatures|j t gessinger",
     "title": "Ruthless Creatures",
     "author": "J T Gessinger",
     "genre": "Romance",
@@ -1191,6 +1261,7 @@
   },
   {
     "id": "d37d2bf8-c414-495a-a394-2547083a8832",
+    "source_key": "the housemaid|freida mcfadden",
     "title": "The Housemaid",
     "author": "Freida McFadden",
     "genre": "Psychological Thriller",
@@ -1208,6 +1279,7 @@
   },
   {
     "id": "8b360332-d452-4819-99bb-c11bcb1d4a39",
+    "source_key": "our infinite fates|laura steven",
     "title": "Our Infinite Fates",
     "author": "Laura Steven",
     "genre": "Fantasy Fiction",
@@ -1225,6 +1297,7 @@
   },
   {
     "id": "f0591ce6-921d-40ad-98b2-257723233fe8",
+    "source_key": "heist society|ally carter",
     "title": "Heist Society",
     "author": "Ally Carter",
     "genre": "YA Mystery",
@@ -1242,6 +1315,7 @@
   },
   {
     "id": "44927ccf-c4a6-4925-864a-c958742ec6a1",
+    "source_key": "uncommon criminals|ally carter",
     "title": "Uncommon Criminals",
     "author": "Ally Carter",
     "genre": "YA Mystery",
@@ -1259,6 +1333,7 @@
   },
   {
     "id": "3af59e78-5383-4f34-ab22-6206a8adb567",
+    "source_key": "double crossed|ally carter",
     "title": "Double Crossed",
     "author": "Ally Carter",
     "genre": "YA Mystery",
@@ -1276,6 +1351,7 @@
   },
   {
     "id": "bef82405-55ce-4ec9-b560-2d9ffc614e2a",
+    "source_key": "perfect scoundrels|ally carter",
     "title": "Perfect Scoundrels",
     "author": "Ally Carter",
     "genre": "YA Mystery",
@@ -1293,6 +1369,7 @@
   },
   {
     "id": "7b285f35-890e-4c9d-9439-6c22b63d713c",
+    "source_key": "grift of the magi|ally carter",
     "title": "Grift Of The Magi",
     "author": "Ally Carter",
     "genre": "YA Mystery",
@@ -1310,6 +1387,7 @@
   },
   {
     "id": "205155a2-7852-43d4-96db-bcc25a547239",
+    "source_key": "the duke and i|julia quinn",
     "title": "The Duke And I",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -1327,6 +1405,7 @@
   },
   {
     "id": "5ba56398-1d4a-4074-bf7b-0db248b288cf",
+    "source_key": "the viscount who loved me|julia quinn",
     "title": "The Viscount Who Loved Me",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -1344,6 +1423,7 @@
   },
   {
     "id": "70359381-ff0c-4d7b-84ab-e0064c85bf73",
+    "source_key": "an offer from a gentleman|julia quinn",
     "title": "An Offer From A Gentleman",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -1361,6 +1441,7 @@
   },
   {
     "id": "29c4bc53-8fb7-464f-86a7-3e7cdc0a8ce8",
+    "source_key": "atmosphere|taylor jenkins reid",
     "title": "Atmosphere",
     "author": "Taylor Jenkins Reid",
     "genre": "Historical Fiction",
@@ -1378,6 +1459,7 @@
   },
   {
     "id": "5b727d19-fe78-4b5b-8cac-a3532cb4dbdc",
+    "source_key": "the boyfriend candidate|ashley winstead",
     "title": "The Boyfriend Candidate",
     "author": "Ashley Winstead",
     "genre": "Romance",
@@ -1395,6 +1477,7 @@
   },
   {
     "id": "6e81696d-dca4-4782-849b-21c3b04d238c",
+    "source_key": "one golden summer|carley fortune",
     "title": "One Golden Summer",
     "author": "Carley Fortune",
     "genre": "Romance",
@@ -1412,6 +1495,7 @@
   },
   {
     "id": "8260cf95-145b-4b4d-a0ba-e99a565416f8",
+    "source_key": "bury our bones in the midnight soil|v e schwab",
     "title": "Bury Our Bones In The Midnight Soil",
     "author": "V E Schwab",
     "genre": "Dark Fantasy Fiction",
@@ -1429,6 +1513,7 @@
   },
   {
     "id": "c6ef2100-0e6a-4a78-888d-1b870e722bac",
+    "source_key": "twisted lies|ana huang",
     "title": "Twisted Lies",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -1446,6 +1531,7 @@
   },
   {
     "id": "7968ccb3-36e5-4ad6-a10a-7c3da265b54c",
+    "source_key": "the fine print|lauren asher",
     "title": "The Fine Print",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -1463,6 +1549,7 @@
   },
   {
     "id": "81954572-4b69-4d8d-8a6d-2008ec601c3d",
+    "source_key": "terms and conditions|lauren asher",
     "title": "Terms And Conditions",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -1480,6 +1567,7 @@
   },
   {
     "id": "b615f6c3-c061-4fd7-90de-ee294ec8f04f",
+    "source_key": "final offer|lauren asher",
     "title": "Final Offer",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -1497,6 +1585,7 @@
   },
   {
     "id": "adabb2b0-3685-4752-9253-e759a1f0b70a",
+    "source_key": "carnal urges|j t gessinger",
     "title": "Carnal Urges",
     "author": "J T Gessinger",
     "genre": "Romance",
@@ -1514,6 +1603,7 @@
   },
   {
     "id": "018f7e5a-de6d-4ad3-95e2-8890c3828d9d",
+    "source_key": "legendary|stephanie garber",
     "title": "Legendary",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -1531,6 +1621,7 @@
   },
   {
     "id": "1a840151-213f-4761-8dae-f83f3b007997",
+    "source_key": "finale|stephanie garber",
     "title": "Finale",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -1548,6 +1639,7 @@
   },
   {
     "id": "93811ae1-88c7-4a09-859f-d00463c2a9f4",
+    "source_key": "book lovers|emily henry",
     "title": "Book Lovers",
     "author": "Emily Henry",
     "genre": "Romance",
@@ -1565,6 +1657,7 @@
   },
   {
     "id": "9244beed-fcbf-4a05-ba96-ba3c6f6a8bd2",
+    "source_key": "the deal|elle kennedy",
     "title": "The Deal",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -1582,6 +1675,7 @@
   },
   {
     "id": "ff28697f-b20b-48f1-840f-72c535a94f64",
+    "source_key": "the mistake|elle kennedy",
     "title": "The Mistake",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -1599,6 +1693,7 @@
   },
   {
     "id": "34ac3fc0-babd-462d-92bf-f1074d85654b",
+    "source_key": "the score|elle kennedy",
     "title": "The Score",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -1616,6 +1711,7 @@
   },
   {
     "id": "9ca1af66-d3af-4267-99ca-063b680adb8d",
+    "source_key": "28 summers|elin hildebrand",
     "title": "28 Summers",
     "author": "Elin Hildebrand",
     "genre": "Contemporary Romance",
@@ -1633,6 +1729,7 @@
   },
   {
     "id": "f284c946-c7cd-437e-a3c0-67caf3b1c1c1",
+    "source_key": "beach read|emily henry",
     "title": "Beach Read",
     "author": "Emily Henry",
     "genre": "Romance",
@@ -1650,6 +1747,7 @@
   },
   {
     "id": "2c063fe0-f172-4abf-8451-daef53583799",
+    "source_key": "king of wrath|ana huang",
     "title": "King Of Wrath",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -1667,6 +1765,7 @@
   },
   {
     "id": "4d38ce4d-5aa1-4f90-85af-51f9c1271036",
+    "source_key": "king of pride|ana huang",
     "title": "King Of Pride",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -1684,6 +1783,7 @@
   },
   {
     "id": "6d1a679b-7cc6-4178-b412-d3c62fffcbd4",
+    "source_key": "king of greed|ana huang",
     "title": "King Of Greed",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -1701,6 +1801,7 @@
   },
   {
     "id": "c454bfb0-9d45-449f-8c52-4b4e05b96405",
+    "source_key": "king of sloth|ana huang",
     "title": "King Of Sloth",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -1718,6 +1819,7 @@
   },
   {
     "id": "12b9c4db-97ba-4f09-b192-3f7a4551df49",
+    "source_key": "butcher & blackbird|brynne weaver",
     "title": "Butcher & Blackbird",
     "author": "Brynne Weaver",
     "genre": "Dark Romance",
@@ -1735,6 +1837,7 @@
   },
   {
     "id": "ac84930a-2408-4dcd-aedc-6ed30ed5f681",
+    "source_key": "leather & lark|brynne weaver",
     "title": "Leather & Lark",
     "author": "Brynne Weaver",
     "genre": "Dark Romance",
@@ -1752,6 +1855,7 @@
   },
   {
     "id": "b39adf70-f0cd-4f8c-a118-652356f95dc2",
+    "source_key": "scythe & sparrow|brynne weaver",
     "title": "Scythe & Sparrow",
     "author": "Brynne Weaver",
     "genre": "Dark Romance",
@@ -1769,6 +1873,7 @@
   },
   {
     "id": "a0d49605-a2db-49f0-87c8-5f66423a7f01",
+    "source_key": "the goal|elle kennedy",
     "title": "The Goal",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -1786,6 +1891,7 @@
   },
   {
     "id": "f307bc19-79e5-43f0-a745-756741a8caae",
+    "source_key": "the legacy|elle kennedy",
     "title": "The Legacy",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -1803,6 +1909,7 @@
   },
   {
     "id": "7b891daa-9d66-4613-b8ed-4970b1df914e",
+    "source_key": "throttled|lauren asher",
     "title": "Throttled",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -1820,6 +1927,7 @@
   },
   {
     "id": "fc7962e6-f6b6-4d86-9844-db5f6d4c7a43",
+    "source_key": "collided|lauren asher",
     "title": "Collided",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -1837,6 +1945,7 @@
   },
   {
     "id": "301fd8b9-9e19-4b24-ad70-26cf877d0ff7",
+    "source_key": "the compound|aisling rawle",
     "title": "The Compound",
     "author": "Aisling Rawle",
     "genre": "Dystopian Fiction",
@@ -1854,6 +1963,7 @@
   },
   {
     "id": "ee67b794-c666-4dc6-9445-aaa770d5ee3b",
+    "source_key": "they never learn|layne fargo",
     "title": "They Never Learn",
     "author": "Layne Fargo",
     "genre": "Thriller",
@@ -1871,6 +1981,7 @@
   },
   {
     "id": "2ce70c94-8f07-4215-b74d-3d3e976bc539",
+    "source_key": "alchemy of secrets|stephanie garber",
     "title": "Alchemy of Secrets",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -1888,6 +1999,7 @@
   },
   {
     "id": "f054b275-a64f-4fee-8524-aba0e25926df",
+    "source_key": "magnolia parks|jessa hastings",
     "title": "Magnolia Parks",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -1905,6 +2017,7 @@
   },
   {
     "id": "c2e3fdbe-7f1c-488a-b115-97969ca7ddb0",
+    "source_key": "daisy haites|jessa hastings",
     "title": "Daisy Haites",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -1922,6 +2035,7 @@
   },
   {
     "id": "074c5d68-ecd1-429c-8182-a242eecc84ee",
+    "source_key": "the long way home|jessa hastings",
     "title": "The Long Way Home",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -1939,6 +2053,7 @@
   },
   {
     "id": "3099b602-b69c-4fd9-95f7-aabcc633cdcf",
+    "source_key": "the great undoing|jessa hastings",
     "title": "The Great Undoing",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -1956,6 +2071,7 @@
   },
   {
     "id": "bb55e606-f0c4-4555-8072-a1402af250c6",
+    "source_key": "into the dark|jessa hastings",
     "title": "Into The Dark",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -1973,6 +2089,7 @@
   },
   {
     "id": "6cef2f78-c5f4-453e-a648-b8825d1db117",
+    "source_key": "spectacular|stephanie garber",
     "title": "Spectacular",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -1990,6 +2107,7 @@
   },
   {
     "id": "4182583d-8e66-47a2-bbd3-7ebbb91944bf",
+    "source_key": "love and other words|christina lauren",
     "title": "Love And Other Words",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -2007,6 +2125,7 @@
   },
   {
     "id": "571c37be-1981-4471-b9c7-3c18effd011e",
+    "source_key": "these violent delights|chloe gong",
     "title": "These Violent Delights",
     "author": "Chloe Gong",
     "genre": "Historical Fantasy",
@@ -2024,6 +2143,7 @@
   },
   {
     "id": "cfe722a4-8dad-48fd-bda3-632603c3a0ca",
+    "source_key": "fake skating|lynn painter",
     "title": "Fake Skating",
     "author": "Lynn Painter",
     "genre": "Romance",
@@ -2041,6 +2161,7 @@
   },
   {
     "id": "b52f5c62-5eea-4afb-8efe-741eacca2532",
+    "source_key": "one true loves|taylor jenkins reid",
     "title": "One True Loves",
     "author": "Taylor Jenkins Reid",
     "genre": "Contemporary Romance",
@@ -2058,6 +2179,7 @@
   },
   {
     "id": "5d6bc738-aa9f-4855-bf2b-fafaf11ae9eb",
+    "source_key": "mile high|liz tomforde",
     "title": "Mile High",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2075,6 +2197,7 @@
   },
   {
     "id": "54bbda4f-d553-4c85-83d4-998d9148bee0",
+    "source_key": "the right move|liz tomforde",
     "title": "The Right Move",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2092,6 +2215,7 @@
   },
   {
     "id": "d103216d-e966-4d81-8b61-3bdea9df9264",
+    "source_key": "caught up|liz tomforde",
     "title": "Caught Up",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2109,6 +2233,7 @@
   },
   {
     "id": "56eb27fd-8f07-4d9a-bfe2-51a9211408a2",
+    "source_key": "play along|liz tomforde",
     "title": "Play Along",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2126,6 +2251,7 @@
   },
   {
     "id": "20dbc2e5-adb2-425c-af42-3781b488bd1c",
+    "source_key": "rewind it back|liz tomforde",
     "title": "Rewind It Back",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2143,6 +2269,7 @@
   },
   {
     "id": "646a4acb-4512-43fa-8841-d6045d7c2c31",
+    "source_key": "wrecked|lauren asher",
     "title": "Wrecked",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -2160,6 +2287,7 @@
   },
   {
     "id": "a2ca2461-185a-48a7-9a38-564d2704b5d3",
+    "source_key": "redeemed|lauren asher",
     "title": "Redeemed",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -2177,6 +2305,7 @@
   },
   {
     "id": "a0b3a5f5-229a-4794-b21b-e9e159733752",
+    "source_key": "people we meet on vacation|emily henry",
     "title": "People We Meet On Vacation",
     "author": "Emily Henry",
     "genre": "Romance",
@@ -2194,6 +2323,7 @@
   },
   {
     "id": "12f1f6e5-fb07-41d3-8914-960fff311cc9",
+    "source_key": "i'm glad my mom died|jennette mccurdy",
     "title": "I'm Glad My Mom Died",
     "author": "Jennette McCurdy",
     "genre": "Biography",
@@ -2211,6 +2341,7 @@
   },
   {
     "id": "c69b550f-3f48-41f0-853c-003fcb821b43",
+    "source_key": "you deserve each other|sarah hogle",
     "title": "You Deserve Each Other",
     "author": "Sarah Hogle",
     "genre": "Romance",
@@ -2228,6 +2359,7 @@
   },
   {
     "id": "67babb45-e20b-44a3-b3ca-f861c17af9ce",
+    "source_key": "marrow|trisha wolfe",
     "title": "Marrow",
     "author": "Trisha Wolfe",
     "genre": "Dark Romance",
@@ -2245,6 +2377,7 @@
   },
   {
     "id": "998910a9-dd85-44cd-ae7b-cb3e80e19601",
+    "source_key": "broken country|clare leslie hall",
     "title": "Broken Country",
     "author": "Clare Leslie Hall",
     "genre": "Historical Fiction",
@@ -2262,6 +2395,7 @@
   },
   {
     "id": "0ad26476-6487-4d88-9cc8-5807ae23062a",
+    "source_key": "the secret|rhonda byrne",
     "title": "The Secret",
     "author": "Rhonda Byrne",
     "genre": "Non Fiction",
@@ -2279,6 +2413,7 @@
   },
   {
     "id": "7e819844-f81e-4bd7-af91-acf72fe95a11",
+    "source_key": "the widows of malabar hill|sujata massey",
     "title": "The Widows Of Malabar Hill",
     "author": "Sujata Massey",
     "genre": "Thriller",
@@ -2296,6 +2431,7 @@
   },
   {
     "id": "38488389-ac6a-4d3a-adc3-1094f227474d",
+    "source_key": "the satapur moonstone|sujata massey",
     "title": "The Satapur Moonstone",
     "author": "Sujata Massey",
     "genre": "Thriller",
@@ -2313,6 +2449,7 @@
   },
   {
     "id": "4037e44f-c75e-4ace-82df-04adfa7c0dce",
+    "source_key": "the heir apparent|rebecca armitage",
     "title": "The Heir Apparent",
     "author": "Rebecca Armitage",
     "genre": "Romance",
@@ -2330,6 +2467,7 @@
   },
   {
     "id": "dc0d537e-fd16-4f02-9238-3a7e12171f6f",
+    "source_key": "the unhoneymooners|christina lauren",
     "title": "The Unhoneymooners",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -2347,6 +2485,7 @@
   },
   {
     "id": "96b8d33e-f6a6-48c9-8830-02c801b429ce",
+    "source_key": "happy place|emily henry",
     "title": "Happy Place",
     "author": "Emily Henry",
     "genre": "Romance",
@@ -2364,6 +2503,7 @@
   },
   {
     "id": "b9b17466-aa93-4056-9ade-c4425fbaad98",
+    "source_key": "the disappearance of astrid bricard|natasha lester",
     "title": "The Disappearance of Astrid Bricard",
     "author": "Natasha Lester",
     "genre": "Historical Fiction",
@@ -2381,6 +2521,7 @@
   },
   {
     "id": "2ab0d5f9-c021-4807-9c38-e421767fa49f",
+    "source_key": "the conditions of will|jessa hastings",
     "title": "The Conditions Of Will",
     "author": "Jessa Hastings",
     "genre": "Romance",
@@ -2398,6 +2539,7 @@
   },
   {
     "id": "617b44aa-f2bb-4878-a50c-561243871c03",
+    "source_key": "the metamorphosis|franz kafka",
     "title": "The Metamorphosis",
     "author": "Franz Kafka",
     "genre": "Absurdist Fiction",
@@ -2415,6 +2557,7 @@
   },
   {
     "id": "7e8919d3-26f0-4090-8a95-6cf7514d5b8c",
+    "source_key": "tell me lies|carola lovering",
     "title": "Tell Me Lies",
     "author": "Carola Lovering",
     "genre": "Psychological Drama",
@@ -2432,6 +2575,7 @@
   },
   {
     "id": "0bd72253-4016-49ae-ab87-f382e448e03f",
+    "source_key": "the exception to the rule|christina lauren",
     "title": "The Exception To The Rule",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -2449,6 +2593,7 @@
   },
   {
     "id": "fac2c0e9-7bb2-43ba-bc04-79758c568723",
+    "source_key": "this summer will be different|carley fortune",
     "title": "This Summer Will Be Different",
     "author": "Carley Fortune",
     "genre": "Romance",
@@ -2466,6 +2611,7 @@
   },
   {
     "id": "765e3012-08d9-42e6-9055-30b61837c701",
+    "source_key": "tomorrow and tomorrow and tomorrow|gabrielle zevin",
     "title": "Tomorrow And Tomorrow And Tomorrow",
     "author": "Gabrielle Zevin",
     "genre": "Coming of Age",
@@ -2483,6 +2629,7 @@
   },
   {
     "id": "20fea533-88de-45c4-8b1b-7ccc43d7ef9d",
+    "source_key": "to con a gentleman|sarah adams",
     "title": "To Con A Gentleman",
     "author": "Sarah Adams",
     "genre": "Historical Romance",
@@ -2500,6 +2647,7 @@
   },
   {
     "id": "d6152748-431a-43ea-bf56-ed32a9ac7e88",
+    "source_key": "to catch a suitor|sarah adams",
     "title": "To Catch A Suitor",
     "author": "Sarah Adams",
     "genre": "Historical Romance",
@@ -2517,6 +2665,7 @@
   },
   {
     "id": "7e2333f5-78ef-435f-baf9-3868fefa3bf1",
+    "source_key": "madonna in a fur coat|sabahattin ali",
     "title": "Madonna In A Fur Coat",
     "author": "Sabahattin Ali",
     "genre": "Historical Fiction",
@@ -2534,6 +2683,7 @@
   },
   {
     "id": "8915871a-6bab-4856-ba6d-ce1bc39fddb5",
+    "source_key": "a witch's guide to fake dating a demon|sarah hawley",
     "title": "A Witch's Guide To Fake Dating A Demon",
     "author": "Sarah Hawley",
     "genre": "Fantasy Romance",
@@ -2551,6 +2701,7 @@
   },
   {
     "id": "bc6fc804-e533-483b-b3f0-503dd3c14014",
+    "source_key": "a demon's guide to wooing a witch|sarah hawley",
     "title": "A Demon's Guide To Wooing A Witch",
     "author": "Sarah Hawley",
     "genre": "Fantasy Romance",
@@ -2568,6 +2719,7 @@
   },
   {
     "id": "cef447db-6738-4d83-9a5e-29ea601eadae",
+    "source_key": "a werewolf's guide to seducing a vampire|sarah hawley",
     "title": "A Werewolf's Guide To Seducing A Vampire",
     "author": "Sarah Hawley",
     "genre": "Fantasy Romance",
@@ -2585,6 +2737,7 @@
   },
   {
     "id": "4f9b110c-3ff3-47ef-adef-fd0e4bad46aa",
+    "source_key": "the fixer|jessica gadziala",
     "title": "The Fixer",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2602,6 +2755,7 @@
   },
   {
     "id": "f39617f7-51de-44f9-8d62-cbf33cb317f3",
+    "source_key": "the ghost|jessica gadziala",
     "title": "The Ghost",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2619,6 +2773,7 @@
   },
   {
     "id": "6ba03f07-ed9a-436e-9d01-aeed0f9cbf56",
+    "source_key": "the messenger|jessica gadziala",
     "title": "The Messenger",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2636,6 +2791,7 @@
   },
   {
     "id": "1bf4eec0-391d-437b-b405-8c96f3c2dbad",
+    "source_key": "king of envy|ana huang",
     "title": "King Of Envy",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -2653,6 +2809,7 @@
   },
   {
     "id": "050a1693-71cb-4f64-8ba8-e2aed1124104",
+    "source_key": "throne of glass|sarah j mass",
     "title": "Throne Of Glass",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -2670,6 +2827,7 @@
   },
   {
     "id": "6671b8bc-7499-4ae0-ae9d-64e6e0ae830a",
+    "source_key": "crown of midnight|sarah j mass",
     "title": "Crown Of Midnight",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -2687,6 +2845,7 @@
   },
   {
     "id": "465bbe09-7b12-4571-94d6-fb0b874b7838",
+    "source_key": "the assassin's blade|sarah j mass",
     "title": "The Assassin's Blade",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -2704,6 +2863,7 @@
   },
   {
     "id": "a7b6a627-1907-4347-9bcd-b050552cc4ff",
+    "source_key": "heir of fire|sarah j mass",
     "title": "Heir Of Fire",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -2721,6 +2881,7 @@
   },
   {
     "id": "9cd38800-4c9d-4cb8-8c5d-654128589111",
+    "source_key": "in her own league|liz tomforde",
     "title": "In Her Own League",
     "author": "Liz Tomforde",
     "genre": "Romance",
@@ -2738,6 +2899,7 @@
   },
   {
     "id": "c4774883-adc0-48ef-a661-db1be924bc54",
+    "source_key": "the general|jessica gadziala",
     "title": "The General",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2755,6 +2917,7 @@
   },
   {
     "id": "301c35a2-8bf6-49ff-9a1a-0950327ad263",
+    "source_key": "the babysitter|jessica gadziala",
     "title": "The Babysitter",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2772,6 +2935,7 @@
   },
   {
     "id": "829557b3-ee23-48dc-8981-b65bcf63340d",
+    "source_key": "the middle man|jessica gadziala",
     "title": "The Middle Man",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2789,6 +2953,7 @@
   },
   {
     "id": "1e9ac029-77e9-43e4-8891-eef7961a9aed",
+    "source_key": "the negotiator|jessica gadziala",
     "title": "The Negotiator",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2806,6 +2971,7 @@
   },
   {
     "id": "1420b65a-1fd0-4c1e-8d59-6fd7ce74cc50",
+    "source_key": "the client|jessica gadziala",
     "title": "The Client",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2823,6 +2989,7 @@
   },
   {
     "id": "e3a6aa6c-f498-43f7-9634-c0148aa4364c",
+    "source_key": "the cleaner|jessica gadziala",
     "title": "The Cleaner",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2840,6 +3007,7 @@
   },
   {
     "id": "99f2a169-3cf9-44b2-b0b8-6ea231514487",
+    "source_key": "the executioner|jessica gadziala",
     "title": "The Executioner",
     "author": "Jessica Gadziala",
     "genre": "Romance",
@@ -2857,6 +3025,7 @@
   },
   {
     "id": "d7fa08d0-5321-431c-92b0-9d65d2d0e70a",
+    "source_key": "when in rome|sarah adams",
     "title": "When In Rome",
     "author": "Sarah Adams",
     "genre": "Romance",
@@ -2874,6 +3043,7 @@
   },
   {
     "id": "5fcbbc3e-e92b-465a-ba0f-4e8860c6c5ea",
+    "source_key": "practice makes perfect|sarah adams",
     "title": "Practice Makes Perfect",
     "author": "Sarah Adams",
     "genre": "Romance",
@@ -2891,6 +3061,7 @@
   },
   {
     "id": "7f763904-7f70-4ece-b13f-9afd2d69ea23",
+    "source_key": "beg, borrow, or steal|sarah adams",
     "title": "Beg, Borrow, Or Steal",
     "author": "Sarah Adams",
     "genre": "Romance",
@@ -2908,6 +3079,7 @@
   },
   {
     "id": "479bf4b0-f05c-4f8a-928f-469675df73ff",
+    "source_key": "in your dreams|sarah adams",
     "title": "In Your Dreams",
     "author": "Sarah Adams",
     "genre": "Romance",
@@ -2925,6 +3097,7 @@
   },
   {
     "id": "32dd2ce5-7d5e-467d-a811-d3a6e4565bb7",
+    "source_key": "vera wong's unsolicited advice for murderers|jesse q sutanto",
     "title": "Vera Wong's Unsolicited Advice For Murderers",
     "author": "Jesse Q Sutanto",
     "genre": "Cozy Mystery",
@@ -2942,6 +3115,7 @@
   },
   {
     "id": "ff3801c7-a8d9-46ad-ab21-06f3663c95e5",
+    "source_key": "the soulmate equation|christina lauren",
     "title": "The Soulmate Equation",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -2959,6 +3133,7 @@
   },
   {
     "id": "75270cf5-c48a-4ff4-ae96-b1eceecf74c1",
+    "source_key": "the true love experiment|christina lauren",
     "title": "The True Love Experiment",
     "author": "Christina Lauren",
     "genre": "Romance",
@@ -2976,6 +3151,7 @@
   },
   {
     "id": "18ac470d-bf93-4d69-9dd0-0aec98c74f3e",
+    "source_key": "love redesigned|lauren asher",
     "title": "Love Redesigned",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -2993,6 +3169,7 @@
   },
   {
     "id": "e06ecbe2-400e-4ff5-901d-6d0bd4584dac",
+    "source_key": "these summer storms|sarah maclean",
     "title": "These Summer Storms",
     "author": "Sarah MacLean",
     "genre": "Contemporary Romance",
@@ -3010,6 +3187,7 @@
   },
   {
     "id": "0c8d5762-1ac1-46f8-8d31-17d9f5c3395a",
+    "source_key": "love unwritten|lauren asher",
     "title": "Love Unwritten",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -3027,6 +3205,7 @@
   },
   {
     "id": "dcf731fa-f263-4557-82da-2d69f66b9a55",
+    "source_key": "king of gluttony|ana huang",
     "title": "King Of Gluttony",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -3044,6 +3223,7 @@
   },
   {
     "id": "93a9cdb0-d2a7-45a9-8a53-94b161c42af4",
+    "source_key": "love arranged|lauren asher",
     "title": "Love Arranged",
     "author": "Lauren Asher",
     "genre": "Romance",
@@ -3061,6 +3241,7 @@
   },
   {
     "id": "9e8f46d8-c507-430c-8907-3a379f2f79bf",
+    "source_key": "an academic affair|jodi mcalister",
     "title": "An Academic Affair",
     "author": "Jodi McAlister",
     "genre": "Romance",
@@ -3078,6 +3259,7 @@
   },
   {
     "id": "c0283a09-6c17-4dcc-bbaa-f7b821ac4bd5",
+    "source_key": "savage hearts|j t gessinger",
     "title": "Savage Hearts",
     "author": "J T Gessinger",
     "genre": "Romance",
@@ -3095,6 +3277,7 @@
   },
   {
     "id": "a4419611-48dd-4678-9550-c4756e210bec",
+    "source_key": "brutal vows|j t gessinger",
     "title": "Brutal Vows",
     "author": "J T Gessinger",
     "genre": "Romance",
@@ -3112,6 +3295,7 @@
   },
   {
     "id": "4f6e5844-9593-481f-81d5-b9d2dcbc5428",
+    "source_key": "part of your world|abby jimenez",
     "title": "Part Of Your World",
     "author": "Abby Jimenez",
     "genre": "Romance",
@@ -3129,6 +3313,7 @@
   },
   {
     "id": "35e4a2d1-b22a-46c3-9921-18562c998ddb",
+    "source_key": "yours truly|abby jimenez",
     "title": "Yours Truly",
     "author": "Abby Jimenez",
     "genre": "Romance",
@@ -3146,6 +3331,7 @@
   },
   {
     "id": "0eb7d393-148e-49b5-8267-aea14af77e3c",
+    "source_key": "just for the summer|abby jimenez",
     "title": "Just For The Summer",
     "author": "Abby Jimenez",
     "genre": "Romance",
@@ -3163,6 +3349,7 @@
   },
   {
     "id": "2e981e22-abc8-4489-a409-cdc74e481d50",
+    "source_key": "the chase|elle kennedy",
     "title": "The Chase",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -3180,6 +3367,7 @@
   },
   {
     "id": "674d80c0-f892-49b9-a417-03f691735756",
+    "source_key": "the risk|elle kennedy",
     "title": "The Risk",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -3197,6 +3385,7 @@
   },
   {
     "id": "ba1bf425-98ff-4b3a-be96-85e7fe227c56",
+    "source_key": "yesteryear|caro claire burke",
     "title": "Yesteryear",
     "author": "Caro Claire Burke",
     "genre": "Psychological Suspense",
@@ -3214,6 +3403,7 @@
   },
   {
     "id": "ee0fb62d-6ea2-4f49-8420-22d07c650e48",
+    "source_key": "romancing mr. bridgerton|julia quinn",
     "title": "Romancing Mr. Bridgerton",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -3231,6 +3421,7 @@
   },
   {
     "id": "20b77985-0f22-4740-80a8-7e4a60af0893",
+    "source_key": "ninth house|leigh bardugo",
     "title": "Ninth House",
     "author": "Leigh Bardugo",
     "genre": "Historical Fantasy",
@@ -3248,6 +3439,7 @@
   },
   {
     "id": "0f4f589a-a564-490c-b45a-7a76d34a4364",
+    "source_key": "lovely bad things|trisha wolfe",
     "title": "Lovely Bad Things",
     "author": "Trisha Wolfe",
     "genre": "Dark Romance",
@@ -3265,6 +3457,7 @@
   },
   {
     "id": "7b9a02cb-ee9c-450f-9730-30952984d33e",
+    "source_key": "the southern book club's guide to slaying vampires|grady hendrix",
     "title": "The Southern Book Club's Guide To Slaying Vampires",
     "author": "Grady Hendrix",
     "genre": "Horror",
@@ -3282,6 +3475,7 @@
   },
   {
     "id": "68e988ef-6a13-4eef-86e8-2f57f9d15e12",
+    "source_key": "flawless|elsie silver",
     "title": "Flawless",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -3299,6 +3493,7 @@
   },
   {
     "id": "d451655e-654f-4f8a-9f2d-55ba79fde105",
+    "source_key": "heartless|elsie silver",
     "title": "Heartless",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -3316,6 +3511,7 @@
   },
   {
     "id": "d29fa2c6-dcff-4148-8a87-f52fb8e6070c",
+    "source_key": "powerless|elsie silver",
     "title": "Powerless",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -3333,6 +3529,7 @@
   },
   {
     "id": "5d1b07b8-b129-455c-be9f-76f9d9492be3",
+    "source_key": "reckless|elsie silver",
     "title": "Reckless",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -3350,6 +3547,7 @@
   },
   {
     "id": "cba8c511-0307-47a0-8c6e-c28fb2250e3a",
+    "source_key": "hopeless|elsie silver",
     "title": "Hopeless",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -3367,6 +3565,7 @@
   },
   {
     "id": "ae7bd5ba-1b82-4bbb-8715-e9dad2da4249",
+    "source_key": "addicted to you|krista ritchie",
     "title": "Addicted To You",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -3384,6 +3583,7 @@
   },
   {
     "id": "bb019daa-4ad8-4c2f-9dcf-6f6e1eaae979",
+    "source_key": "ricochet|krista ritchie",
     "title": "Ricochet",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -3401,6 +3601,7 @@
   },
   {
     "id": "3475722f-6f00-48db-aeed-0869c4bf6641",
+    "source_key": "addicted for now|krista ritchie",
     "title": "Addicted For Now",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -3418,6 +3619,7 @@
   },
   {
     "id": "cb0bc24f-7f00-4a5d-aabc-da9a679a2412",
+    "source_key": "kiss the sky|krista ritchie",
     "title": "Kiss The Sky",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -3435,6 +3637,7 @@
   },
   {
     "id": "a1a6a6a1-7576-4e5b-8433-f9fea9e38ed0",
+    "source_key": "hothouse flower|krista ritchie",
     "title": "Hothouse Flower",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -3452,6 +3655,7 @@
   },
   {
     "id": "71c7215f-c765-4ed4-a5dd-9448c6b1e5c5",
+    "source_key": "king of lust|ana huang",
     "title": "King Of Lust",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -3469,6 +3673,7 @@
   },
   {
     "id": "d164dc6b-c0e0-4eed-9bd5-b6497e87f284",
+    "source_key": "the striker|ana huang",
     "title": "The Striker",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -3486,6 +3691,7 @@
   },
   {
     "id": "18d664a6-359d-4923-8a0a-55339d480d8c",
+    "source_key": "the defender|ana huang",
     "title": "The Defender",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -3503,6 +3709,7 @@
   },
   {
     "id": "62030384-b7ba-4896-b558-57b66117b05d",
+    "source_key": "the keeper|ana huang",
     "title": "The Keeper",
     "author": "Ana Huang",
     "genre": "Romance",
@@ -3520,6 +3727,7 @@
   },
   {
     "id": "edd06fa9-7ae3-4f5a-b8b5-ce707e7720d7",
+    "source_key": "maybe in another life|taylor jenkins reid",
     "title": "Maybe In Another Life",
     "author": "Taylor Jenkins Reid",
     "genre": "Contemporary Romance",
@@ -3537,6 +3745,7 @@
   },
   {
     "id": "d5bce8bc-63ce-43e2-8ca5-89c7587f6526",
+    "source_key": "forever, interrupted|taylor jenkins reid",
     "title": "Forever, Interrupted",
     "author": "Taylor Jenkins Reid",
     "genre": "Contemporary Romance",
@@ -3554,6 +3763,7 @@
   },
   {
     "id": "0fa0408b-5187-4d03-a2bd-ed0aabaa034d",
+    "source_key": "after i do|taylor jenkins reid",
     "title": "After I Do",
     "author": "Taylor Jenkins Reid",
     "genre": "Contemporary Romance",
@@ -3571,6 +3781,7 @@
   },
   {
     "id": "582e3314-37bb-434c-b758-fd71c8c0fcf4",
+    "source_key": "funny story|emily henry",
     "title": "Funny Story",
     "author": "Emily Henry",
     "genre": "Romance",
@@ -3588,6 +3799,7 @@
   },
   {
     "id": "4e42b743-4170-4c5c-ac5b-45b2229aba55",
+    "source_key": "the kite runner|khalid hosseini",
     "title": "The Kite Runner",
     "author": "Khalid Hosseini",
     "genre": "Historical Fiction",
@@ -3605,6 +3817,7 @@
   },
   {
     "id": "53770d9c-250f-4020-9aaa-f62e7a2f1fb9",
+    "source_key": "all the light we cannot see|anthony doerr",
     "title": "All The Light We Cannot See",
     "author": "Anthony Doerr",
     "genre": "Historical Fiction",
@@ -3622,6 +3835,7 @@
   },
   {
     "id": "e24184fd-2757-4e29-9210-8cd28de38a7d",
+    "source_key": "northanger abbey|jane austen",
     "title": "Northanger Abbey",
     "author": "Jane Austen",
     "genre": "Historical Fiction",
@@ -3639,6 +3853,7 @@
   },
   {
     "id": "fa64a507-d98d-45e9-ba8a-c017cb9bf790",
+    "source_key": "mansfield park|jane austen",
     "title": "Mansfield Park",
     "author": "Jane Austen",
     "genre": "Historical Fiction",
@@ -3656,6 +3871,7 @@
   },
   {
     "id": "71a27054-5f2b-4869-aa5d-170226a5dd67",
+    "source_key": "sense & sensibility|jane austen",
     "title": "Sense and Sensibility",
     "author": "Jane Austen",
     "genre": "Historical Fiction",
@@ -3673,6 +3889,7 @@
   },
   {
     "id": "6b46e860-d1da-431a-8972-31cbcb8621bf",
+    "source_key": "emma|jane austen",
     "title": "Emma",
     "author": "Jane Austen",
     "genre": "Historical Fiction",
@@ -3690,6 +3907,7 @@
   },
   {
     "id": "0c358127-621f-4b5b-8ff8-2c832a4f48cb",
+    "source_key": "once upon a broken heart|stephanie garber",
     "title": "Once Upon A Broken Heart",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -3707,6 +3925,7 @@
   },
   {
     "id": "6200a1f3-f03c-4f21-b3eb-554988c589ff",
+    "source_key": "the ballad of never after|stephanie garber",
     "title": "The Ballad Of Never After",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -3724,6 +3943,7 @@
   },
   {
     "id": "cb724b3f-d578-40f7-bc9b-edd9cedb3b0f",
+    "source_key": "a curse for true love|stephanie garber",
     "title": "A Curse For True Love",
     "author": "Stephanie Garber",
     "genre": "Fantasy Fiction",
@@ -3741,6 +3961,7 @@
   },
   {
     "id": "6ca3916c-ba01-4c35-8930-0226ea816bf7",
+    "source_key": "to sir philip with love|julia quinn",
     "title": "To Sir Philip With Love",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -3758,6 +3979,7 @@
   },
   {
     "id": "cedde31f-2eed-4a57-9efd-f985c1c26bcb",
+    "source_key": "when he was wicked|julia quinn",
     "title": "When He Was Wicked",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -3775,6 +3997,7 @@
   },
   {
     "id": "caf4a93f-e7e7-4050-b08f-f3430fef3522",
+    "source_key": "it's in his kiss|julia quinn",
     "title": "It's In His Kiss",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -3792,6 +4015,7 @@
   },
   {
     "id": "f4cec6ab-86a4-432d-9422-b801967df095",
+    "source_key": "on the way to the wedding|julia quinn",
     "title": "On The Way To The Wedding",
     "author": "Julia Quinn",
     "genre": "Historical Romance",
@@ -3809,6 +4033,7 @@
   },
   {
     "id": "bae39a61-eab5-4631-ad84-528759bda69f",
+    "source_key": "the play|elle kennedy",
     "title": "The Play",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -3826,6 +4051,7 @@
   },
   {
     "id": "ecdeb784-82b8-499a-b352-c6485bcff934",
+    "source_key": "the dare|elle kennedy",
     "title": "The Dare",
     "author": "Elle Kennedy",
     "genre": "Romance",
@@ -3843,6 +4069,7 @@
   },
   {
     "id": "dc83674a-1cbc-4880-8d9e-c4b6853ec8a2",
+    "source_key": "lovely wicked things|trisha wolfe",
     "title": "Lovely Wicked Things",
     "author": "Trisha Wolfe",
     "genre": "Dark Romance",
@@ -3860,6 +4087,7 @@
   },
   {
     "id": "6a0896c0-7f5c-40ba-b8fb-1de910abecfd",
+    "source_key": "lovely violent things|trisha wolfe",
     "title": "Lovely Violent Things",
     "author": "Trisha Wolfe",
     "genre": "Dark Romance",
@@ -3877,6 +4105,7 @@
   },
   {
     "id": "89b15bd9-8584-4755-b0aa-d751a549f287",
+    "source_key": "the seven year slip|ashley poston",
     "title": "The Seven Year Slip",
     "author": "Ashley Poston",
     "genre": "Romance",
@@ -3894,6 +4123,7 @@
   },
   {
     "id": "e3d4ca50-12fc-4cc0-902a-c3ee4079899e",
+    "source_key": "queen of shadows|sarah j mass",
     "title": "Queen Of Shadows",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3911,6 +4141,7 @@
   },
   {
     "id": "189c44ca-6747-4c07-aac4-cff2271b9ff4",
+    "source_key": "empire of storms|sarah j mass",
     "title": "Empire Of Storms",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3928,6 +4159,7 @@
   },
   {
     "id": "1b9a31f1-9513-474f-abef-ef0515311917",
+    "source_key": "tower of dawn|sarah j mass",
     "title": "Tower Of Dawn",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3945,6 +4177,7 @@
   },
   {
     "id": "6e196956-7ebf-47b2-8156-0ba71393397f",
+    "source_key": "kingdom of ash|sarah j mass",
     "title": "Kingdom Of Ash",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3962,6 +4195,7 @@
   },
   {
     "id": "3a08d201-b6ed-4c0f-ae48-8bcf9d1d9314",
+    "source_key": "house of earth & blood|sarah j mass",
     "title": "House of Earth and Blood",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3979,6 +4213,7 @@
   },
   {
     "id": "5cc705f4-c666-4906-8635-80342ccda125",
+    "source_key": "house of sky & breath|sarah j mass",
     "title": "House of Sky and Breath",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -3996,6 +4231,7 @@
   },
   {
     "id": "bc7fee00-d6e4-44dd-8e1e-ce9c0cadc56d",
+    "source_key": "house of flame & shadow|sarah j mass",
     "title": "House of Flame and Shadow",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -4013,6 +4249,7 @@
   },
   {
     "id": "049d662f-9ce8-4271-b70e-65cb88921ead",
+    "source_key": "a court of thorns and roses|sarah j mass",
     "title": "A Court Of Thorns and Roses",
     "author": "Sarah J Mass",
     "genre": "Fantasy Fiction",
@@ -4030,6 +4267,7 @@
   },
   {
     "id": "c57664bc-1a6c-4855-b293-b098513cd7f5",
+    "source_key": "catcher in the rye|j d salinger",
     "title": "The Catcher in the Rye",
     "author": "J D Salinger",
     "genre": "Literary Fiction",
@@ -4047,6 +4285,7 @@
   },
   {
     "id": "a8a28b05-7576-4a3a-9ee8-5bda6cd76b52",
+    "source_key": "intermezzo|sally rooney",
     "title": "Intermezzo",
     "author": "Sally Rooney",
     "genre": "Psychological Fiction",
@@ -4064,6 +4303,7 @@
   },
   {
     "id": "31bf895f-7904-46a8-bec6-04b5e8bb51a3",
+    "source_key": "katabasis|r f kuang",
     "title": "Katabasis",
     "author": "R F Kuang",
     "genre": "Gothic Fantasy",
@@ -4081,6 +4321,7 @@
   },
   {
     "id": "f2614773-98d2-4c42-a1df-8db13633dccc",
+    "source_key": "fourth wing|rebecca yarros",
     "title": "Fourth Wing",
     "author": "Rebecca Yarros",
     "genre": "Fantasy Fiction",
@@ -4098,6 +4339,7 @@
   },
   {
     "id": "c4be9702-fa8f-49e6-bb6a-2251c3193b90",
+    "source_key": "iron flame|rebecca yarros",
     "title": "Iron Flame",
     "author": "Rebecca Yarros",
     "genre": "Fantasy Fiction",
@@ -4115,6 +4357,7 @@
   },
   {
     "id": "b2611fab-38f0-4810-a433-619cf9f5cc95",
+    "source_key": "onyx storm|rebecca yarros",
     "title": "Onyx Storm",
     "author": "Rebecca Yarros",
     "genre": "Fantasy Fiction",
@@ -4132,6 +4375,7 @@
   },
   {
     "id": "6cf4a5e8-db2b-4253-9f97-2670e131e698",
+    "source_key": "first-time caller|b k borrison",
     "title": "First-Time Caller",
     "author": "B K Borrison",
     "genre": "Romance",
@@ -4149,6 +4393,7 @@
   },
   {
     "id": "c171cea4-8057-471f-8094-a118e0940b90",
+    "source_key": "everything i know about love|dolly alderton",
     "title": "Everything I Know About Love",
     "author": "Dolly Alderton",
     "genre": "Non Fiction",
@@ -4166,6 +4411,7 @@
   },
   {
     "id": "c029eb29-5489-4a87-af7a-bc5e2bcd8297",
+    "source_key": "the irresistible urge to fall for your enemy|brigitte knightley",
     "title": "The Irresistible Urge To Fall For Your Enemy",
     "author": "Brigitte Knightley",
     "genre": "Fantasy Romance",
@@ -4183,6 +4429,7 @@
   },
   {
     "id": "bd67c90d-1ea2-4409-bf9c-d79f4e3b391f",
+    "source_key": "hell bent|leigh bardugo",
     "title": "Hell Bent",
     "author": "Leigh Bardugo",
     "genre": "Historical Fantasy",
@@ -4200,6 +4447,7 @@
   },
   {
     "id": "5c65b761-d951-4dd4-803d-1d843ceb572b",
+    "source_key": "dead beat|leigh bardugo",
     "title": "Dead Beat",
     "author": "Leigh Bardugo",
     "genre": "Historical Fantasy",
@@ -4217,6 +4465,7 @@
   },
   {
     "id": "dc08fc0d-18b5-4208-8ef8-7325b672c7c2",
+    "source_key": "wild love|elsie silver",
     "title": "Wild Love",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -4234,6 +4483,7 @@
   },
   {
     "id": "8861b3a4-f5a1-4a0d-a4ca-cbbbbc1a707d",
+    "source_key": "wild eyes|elsie silver",
     "title": "Wild Eyes",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -4251,6 +4501,7 @@
   },
   {
     "id": "d0ec9927-2c8b-4dd6-8ac5-ddbb7b8e09c3",
+    "source_key": "wild side|elsie silver",
     "title": "Wild Side",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -4268,6 +4519,7 @@
   },
   {
     "id": "7271bd8c-25fd-4f0a-b925-dd51780d2c02",
+    "source_key": "wild card|elsie silver",
     "title": "Wild Card",
     "author": "Elsie Silver",
     "genre": "Romance",
@@ -4285,6 +4537,7 @@
   },
   {
     "id": "976b5c18-cbfc-4b1a-b54b-fd2e361d1d77",
+    "source_key": "the seven and a half deaths of evelyn hardcastle|stuart turton",
     "title": "The 7 1/2 Deaths of Evelyn Hardcastle",
     "author": "Stuart Turton",
     "genre": "Mystery",
@@ -4302,6 +4555,7 @@
   },
   {
     "id": "9a1d588d-01a6-4575-8c74-9471c1c5c71e",
+    "source_key": "the bombay prince|sujata massey",
     "title": "The Bombay Prince",
     "author": "Sujata Massey",
     "genre": "Thriller",
@@ -4319,6 +4573,7 @@
   },
   {
     "id": "e8e6a037-a125-48ef-9598-899ad8c0b811",
+    "source_key": "the mistress of bhatia house|sujata massey",
     "title": "The Mistress Of Bhatia House",
     "author": "Sujata Massey",
     "genre": "Thriller",
@@ -4336,6 +4591,7 @@
   },
   {
     "id": "b39c48df-63d9-4c89-b8d4-c331e6616826",
+    "source_key": "husbands and lovers|beatriz williiams",
     "title": "Husbands & Lovers",
     "author": "Beatriz Williiams",
     "genre": "Historical Fiction",
@@ -4353,6 +4609,7 @@
   },
   {
     "id": "77ddc577-c63c-45ff-9953-a49c1a3d2989",
+    "source_key": "my friends|fredrik backman",
     "title": "My Friends",
     "author": "Fredrik Backman",
     "genre": "Psychological Fiction",
@@ -4370,6 +4627,7 @@
   },
   {
     "id": "0d4d2b69-13f7-4cdf-a3b2-cf23d119c06b",
+    "source_key": "anxious people|fredrik backman",
     "title": "Anxious People",
     "author": "Fredrik Backman",
     "genre": "Psychological Fiction",
@@ -4387,6 +4645,7 @@
   },
   {
     "id": "dabb7855-9c94-409b-aa55-b6b039ab7d08",
+    "source_key": "clytemnestra|costanza casati",
     "title": "Clytemnestra",
     "author": "Costanza Casati",
     "genre": "Historical Fiction",
@@ -4404,6 +4663,7 @@
   },
   {
     "id": "2e7fce97-1415-4996-ba76-68076d411b3d",
+    "source_key": "thrive|krista ritchie",
     "title": "Thrive",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -4421,6 +4681,7 @@
   },
   {
     "id": "7785e56a-a934-457d-87ff-46e8c8cd13e1",
+    "source_key": "addicted after all|krista ritchie",
     "title": "Addicted After All",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -4438,6 +4699,7 @@
   },
   {
     "id": "dab62ba9-409d-41a3-9d87-f80018f38d66",
+    "source_key": "fuel the fire|krista ritchie",
     "title": "Fuel The Fire",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -4455,6 +4717,7 @@
   },
   {
     "id": "2e9cf67e-865b-4967-8720-6e2b97e51da9",
+    "source_key": "long way down|krista ritchie",
     "title": "Long Way Down",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -4472,6 +4735,7 @@
   },
   {
     "id": "0076da3b-b1d9-4a8b-bd0e-15ccdd9227fc",
+    "source_key": "some kind of perfect|krista ritchie",
     "title": "Some Kind Of Perfect",
     "author": "Krista Ritchie",
     "genre": "Romance",
@@ -4489,6 +4753,7 @@
   },
   {
     "id": "275293a5-cbd5-4a0b-b8a8-d2e4adf7b74e",
+    "source_key": "law maker|susie tate",
     "title": "Law Maker",
     "author": "Susie Tate",
     "genre": "Romance",
@@ -4506,6 +4771,7 @@
   },
   {
     "id": "845bee41-79c1-48da-b34f-8393e9fd959f",
+    "source_key": "deal breaker|susie tate",
     "title": "Deal Breaker",
     "author": "Susie Tate",
     "genre": "Romance",
@@ -4523,6 +4789,7 @@
   },
   {
     "id": "2ffa6e2d-21a2-4e39-af71-158957a2b5af",
+    "source_key": "binding 13|chloe walsh",
     "title": "Binding 13",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4540,6 +4807,7 @@
   },
   {
     "id": "4fd478f4-3985-44db-bda8-adf72cb635fb",
+    "source_key": "keeping 13|chloe walsh",
     "title": "Keeping 13",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4557,6 +4825,7 @@
   },
   {
     "id": "e1bba654-3cd2-499f-972a-9a9c01daa1ca",
+    "source_key": "saving 6|chloe walsh",
     "title": "Saving 6",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4574,6 +4843,7 @@
   },
   {
     "id": "130635f5-2688-4159-9275-8d7d3c5c0947",
+    "source_key": "redeeming 6|chloe walsh",
     "title": "Redeeming 6",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4591,6 +4861,7 @@
   },
   {
     "id": "4460662c-c470-40eb-a589-b0b5831ee4cc",
+    "source_key": "taming 7|chloe walsh",
     "title": "Taming 7",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4608,6 +4879,7 @@
   },
   {
     "id": "bfbe7092-bbc1-4714-b45f-0349d23f52fc",
+    "source_key": "releasing 10|chloe walsh",
     "title": "Releasing 10",
     "author": "Chloe Walsh",
     "genre": "Romance",
@@ -4625,6 +4897,7 @@
   },
   {
     "id": "2c5840c5-c281-4d98-9348-0fa7192023d6",
+    "source_key": "the god of the woods|liz moore",
     "title": "The God Of The Woods",
     "author": "Liz Moore",
     "genre": "Literary Mystery",
