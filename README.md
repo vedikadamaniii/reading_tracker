@@ -7,7 +7,9 @@ search.
 ## Stack
 
 - React + Vite (TypeScript)
-- Supabase (Postgres) for storage, called directly from the frontend
+- Library data bundled with the site in `src/data/library.json`, built from
+  the spreadsheet exports by `scripts/build-static-library.mjs` (Supabase is
+  no longer used at runtime; edits on the page last until reload)
 - Google Books API for search/recommendations
 - Deployed on Vercel
 
