@@ -1,7 +1,8 @@
 import type { Goal } from '../types'
 
-// Like books, goals live in memory for now (see books.ts).
-const goals = new Map<number, Goal>()
+// Yearly goals ship with the site, like the library (see books.ts).
+// Changes made on the page last until the page is reloaded.
+const goals = new Map<number, Goal>([[2026, { year: 2026, target_count: 100 }]])
 
 export async function getGoal(year: number): Promise<Goal | null> {
   return goals.get(year) ?? null

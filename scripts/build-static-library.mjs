@@ -65,14 +65,24 @@ for (const f of trackerRows.slice(1)) {
 }
 
 // --- TBR checklist (same rules as import-tbr.mjs: only titles not already tracked) ---
-const tracked = new Set(books.map((b) => keyOf(b.title)))
+// Matching ignores case, punctuation and plural "s" so small spelling
+// differences between the two tabs ("Thorn"/"Thorns") don't create duplicates.
+const looseKey = (title) =>
+  title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(' ')
+    .map((w) => w.replace(/s$/, ''))
+    .join(' ')
+const tracked = new Set(books.map((b) => looseKey(b.title)))
 const tbrRows = readCsv(tbrPath)
 const headerIndex = tbrRows.findIndex((f) => f[0]?.trim() === 'Read')
 const bh = tbrRows[headerIndex]
 for (const f of tbrRows.slice(headerIndex + 1)) {
   const title = clean(f[bh.indexOf('Book')])
-  if (!title || tracked.has(keyOf(title))) continue
-  tracked.add(keyOf(title))
+  if (!title || tracked.has(looseKey(title))) continue
+  tracked.add(looseKey(title))
   const read = f[bh.indexOf('Read')]?.trim().toUpperCase() === 'TRUE'
   books.push({
     title,
