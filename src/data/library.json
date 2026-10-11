@@ -3641,10 +3641,10 @@
     "title": "Hothouse Flower",
     "author": "Krista Ritchie",
     "genre": "Romance",
-    "status": "reading",
-    "rating": null,
+    "status": "finished",
+    "rating": 4.5,
     "date_started": "2026-09-28",
-    "date_finished": null,
+    "date_finished": "2026-09-30",
     "cover_url": "https://books.google.com/books/content?id=-9T5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "google_books_id": "-9T5DwAAQBAJ",
     "page_count": 497,
@@ -3652,6 +3652,60 @@
     "series_order": 7,
     "notes": null,
     "created_at": "2024-01-01T03:22:00.000Z"
+  },
+  {
+    "id": "2e7fce97-1415-4996-ba76-68076d411b3d",
+    "source_key": "thrive|krista ritchie",
+    "title": "Thrive",
+    "author": "Krista Ritchie",
+    "genre": "Romance",
+    "status": "finished",
+    "rating": 4,
+    "date_started": "2026-09-30",
+    "date_finished": "2026-10-05",
+    "cover_url": "https://books.google.com/books/content?id=t9X5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "google_books_id": "t9X5DwAAQBAJ",
+    "page_count": 473,
+    "series_name": "Addicted",
+    "series_order": 4,
+    "notes": null,
+    "created_at": "2024-01-01T03:23:00.000Z"
+  },
+  {
+    "id": "7785e56a-a934-457d-87ff-46e8c8cd13e1",
+    "source_key": "addicted after all|krista ritchie",
+    "title": "Addicted After All",
+    "author": "Krista Ritchie",
+    "genre": "Romance",
+    "status": "reading",
+    "rating": null,
+    "date_started": "2026-10-05",
+    "date_finished": null,
+    "cover_url": "https://books.google.com/books/content?id=nvCfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "google_books_id": "nvCfEAAAQBAJ",
+    "page_count": 609,
+    "series_name": "Addicted",
+    "series_order": 5,
+    "notes": null,
+    "created_at": "2024-01-01T03:24:00.000Z"
+  },
+  {
+    "id": "77ddc577-c63c-45ff-9953-a49c1a3d2989",
+    "source_key": "my friends|fredrik backman",
+    "title": "My Friends",
+    "author": "Fredrik Backman",
+    "genre": "Psychological Fiction",
+    "status": "reading",
+    "rating": null,
+    "date_started": "2026-10-06",
+    "date_finished": null,
+    "cover_url": "https://books.google.com/books/content?id=dezuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "google_books_id": "dezuEQAAQBAJ",
+    "page_count": 448,
+    "series_name": null,
+    "series_order": null,
+    "notes": null,
+    "created_at": "2024-01-01T03:25:00.000Z"
   },
   {
     "id": "71c7215f-c765-4ed4-a5dd-9448c6b1e5c5",
@@ -3669,7 +3723,7 @@
     "series_name": "Kings of Sin",
     "series_order": 7,
     "notes": null,
-    "created_at": "2024-01-01T03:23:00.000Z"
+    "created_at": "2024-01-01T03:26:00.000Z"
   },
   {
     "id": "d164dc6b-c0e0-4eed-9bd5-b6497e87f284",
@@ -3687,7 +3741,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:24:00.000Z"
+    "created_at": "2024-01-01T03:27:00.000Z"
   },
   {
     "id": "18d664a6-359d-4923-8a0a-55339d480d8c",
@@ -3705,7 +3759,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:25:00.000Z"
+    "created_at": "2024-01-01T03:28:00.000Z"
   },
   {
     "id": "62030384-b7ba-4896-b558-57b66117b05d",
@@ -3723,7 +3777,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:26:00.000Z"
+    "created_at": "2024-01-01T03:29:00.000Z"
   },
   {
     "id": "edd06fa9-7ae3-4f5a-b8b5-ce707e7720d7",
@@ -3741,7 +3795,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:27:00.000Z"
+    "created_at": "2024-01-01T03:30:00.000Z"
   },
   {
     "id": "d5bce8bc-63ce-43e2-8ca5-89c7587f6526",
@@ -3759,7 +3813,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:28:00.000Z"
+    "created_at": "2024-01-01T03:31:00.000Z"
   },
   {
     "id": "0fa0408b-5187-4d03-a2bd-ed0aabaa034d",
@@ -3777,7 +3831,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:29:00.000Z"
+    "created_at": "2024-01-01T03:32:00.000Z"
   },
   {
     "id": "582e3314-37bb-434c-b758-fd71c8c0fcf4",
@@ -3795,7 +3849,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:30:00.000Z"
+    "created_at": "2024-01-01T03:33:00.000Z"
   },
   {
     "id": "4e42b743-4170-4c5c-ac5b-45b2229aba55",
@@ -3813,7 +3867,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:31:00.000Z"
+    "created_at": "2024-01-01T03:34:00.000Z"
   },
   {
     "id": "53770d9c-250f-4020-9aaa-f62e7a2f1fb9",
@@ -3831,7 +3885,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:32:00.000Z"
+    "created_at": "2024-01-01T03:35:00.000Z"
   },
   {
     "id": "e24184fd-2757-4e29-9210-8cd28de38a7d",
@@ -3849,7 +3903,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:33:00.000Z"
+    "created_at": "2024-01-01T03:36:00.000Z"
   },
   {
     "id": "fa64a507-d98d-45e9-ba8a-c017cb9bf790",
@@ -3867,7 +3921,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:34:00.000Z"
+    "created_at": "2024-01-01T03:37:00.000Z"
   },
   {
     "id": "71a27054-5f2b-4869-aa5d-170226a5dd67",
@@ -3885,7 +3939,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:35:00.000Z"
+    "created_at": "2024-01-01T03:38:00.000Z"
   },
   {
     "id": "6b46e860-d1da-431a-8972-31cbcb8621bf",
@@ -3903,7 +3957,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:36:00.000Z"
+    "created_at": "2024-01-01T03:39:00.000Z"
   },
   {
     "id": "0c358127-621f-4b5b-8ff8-2c832a4f48cb",
@@ -3921,7 +3975,7 @@
     "series_name": "Once Upon a Broken Heart",
     "series_order": 1,
     "notes": null,
-    "created_at": "2024-01-01T03:37:00.000Z"
+    "created_at": "2024-01-01T03:40:00.000Z"
   },
   {
     "id": "6200a1f3-f03c-4f21-b3eb-554988c589ff",
@@ -3939,7 +3993,7 @@
     "series_name": "Once Upon a Broken Heart",
     "series_order": 2,
     "notes": null,
-    "created_at": "2024-01-01T03:38:00.000Z"
+    "created_at": "2024-01-01T03:41:00.000Z"
   },
   {
     "id": "cb724b3f-d578-40f7-bc9b-edd9cedb3b0f",
@@ -3957,7 +4011,7 @@
     "series_name": "Once Upon a Broken Heart",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T03:39:00.000Z"
+    "created_at": "2024-01-01T03:42:00.000Z"
   },
   {
     "id": "6ca3916c-ba01-4c35-8930-0226ea816bf7",
@@ -3975,7 +4029,7 @@
     "series_name": "Bridgertons",
     "series_order": 5,
     "notes": null,
-    "created_at": "2024-01-01T03:40:00.000Z"
+    "created_at": "2024-01-01T03:43:00.000Z"
   },
   {
     "id": "cedde31f-2eed-4a57-9efd-f985c1c26bcb",
@@ -3993,7 +4047,7 @@
     "series_name": "Bridgertons",
     "series_order": 6,
     "notes": null,
-    "created_at": "2024-01-01T03:41:00.000Z"
+    "created_at": "2024-01-01T03:44:00.000Z"
   },
   {
     "id": "caf4a93f-e7e7-4050-b08f-f3430fef3522",
@@ -4011,7 +4065,7 @@
     "series_name": "Bridgertons",
     "series_order": 7,
     "notes": null,
-    "created_at": "2024-01-01T03:42:00.000Z"
+    "created_at": "2024-01-01T03:45:00.000Z"
   },
   {
     "id": "f4cec6ab-86a4-432d-9422-b801967df095",
@@ -4029,7 +4083,7 @@
     "series_name": "Bridgertons",
     "series_order": 8,
     "notes": null,
-    "created_at": "2024-01-01T03:43:00.000Z"
+    "created_at": "2024-01-01T03:46:00.000Z"
   },
   {
     "id": "bae39a61-eab5-4631-ad84-528759bda69f",
@@ -4047,7 +4101,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:44:00.000Z"
+    "created_at": "2024-01-01T03:47:00.000Z"
   },
   {
     "id": "ecdeb784-82b8-499a-b352-c6485bcff934",
@@ -4065,7 +4119,7 @@
     "series_name": "Briar U",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T03:45:00.000Z"
+    "created_at": "2024-01-01T03:48:00.000Z"
   },
   {
     "id": "dc83674a-1cbc-4880-8d9e-c4b6853ec8a2",
@@ -4083,7 +4137,7 @@
     "series_name": "Lovely...",
     "series_order": 2,
     "notes": null,
-    "created_at": "2024-01-01T03:46:00.000Z"
+    "created_at": "2024-01-01T03:49:00.000Z"
   },
   {
     "id": "6a0896c0-7f5c-40ba-b8fb-1de910abecfd",
@@ -4101,7 +4155,7 @@
     "series_name": "Lovely...",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T03:47:00.000Z"
+    "created_at": "2024-01-01T03:50:00.000Z"
   },
   {
     "id": "89b15bd9-8584-4755-b0aa-d751a549f287",
@@ -4119,7 +4173,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:48:00.000Z"
+    "created_at": "2024-01-01T03:51:00.000Z"
   },
   {
     "id": "e3d4ca50-12fc-4cc0-902a-c3ee4079899e",
@@ -4137,7 +4191,7 @@
     "series_name": "Throne of Glass",
     "series_order": 5,
     "notes": null,
-    "created_at": "2024-01-01T03:49:00.000Z"
+    "created_at": "2024-01-01T03:52:00.000Z"
   },
   {
     "id": "189c44ca-6747-4c07-aac4-cff2271b9ff4",
@@ -4155,7 +4209,7 @@
     "series_name": "Throne of Glass",
     "series_order": 6,
     "notes": null,
-    "created_at": "2024-01-01T03:50:00.000Z"
+    "created_at": "2024-01-01T03:53:00.000Z"
   },
   {
     "id": "1b9a31f1-9513-474f-abef-ef0515311917",
@@ -4173,7 +4227,7 @@
     "series_name": "Throne of Glass",
     "series_order": 7,
     "notes": null,
-    "created_at": "2024-01-01T03:51:00.000Z"
+    "created_at": "2024-01-01T03:54:00.000Z"
   },
   {
     "id": "6e196956-7ebf-47b2-8156-0ba71393397f",
@@ -4191,7 +4245,7 @@
     "series_name": "Throne of Glass",
     "series_order": 8,
     "notes": null,
-    "created_at": "2024-01-01T03:52:00.000Z"
+    "created_at": "2024-01-01T03:55:00.000Z"
   },
   {
     "id": "3a08d201-b6ed-4c0f-ae48-8bcf9d1d9314",
@@ -4209,7 +4263,7 @@
     "series_name": "Crescent City",
     "series_order": 1,
     "notes": null,
-    "created_at": "2024-01-01T03:53:00.000Z"
+    "created_at": "2024-01-01T03:56:00.000Z"
   },
   {
     "id": "5cc705f4-c666-4906-8635-80342ccda125",
@@ -4227,7 +4281,7 @@
     "series_name": "Crescent City",
     "series_order": 2,
     "notes": null,
-    "created_at": "2024-01-01T03:54:00.000Z"
+    "created_at": "2024-01-01T03:57:00.000Z"
   },
   {
     "id": "bc7fee00-d6e4-44dd-8e1e-ce9c0cadc56d",
@@ -4245,7 +4299,7 @@
     "series_name": "Crescent City",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T03:55:00.000Z"
+    "created_at": "2024-01-01T03:58:00.000Z"
   },
   {
     "id": "c57664bc-1a6c-4855-b293-b098513cd7f5",
@@ -4263,7 +4317,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:56:00.000Z"
+    "created_at": "2024-01-01T03:59:00.000Z"
   },
   {
     "id": "a8a28b05-7576-4a3a-9ee8-5bda6cd76b52",
@@ -4281,7 +4335,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:57:00.000Z"
+    "created_at": "2024-01-01T04:00:00.000Z"
   },
   {
     "id": "31bf895f-7904-46a8-bec6-04b5e8bb51a3",
@@ -4299,7 +4353,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T03:58:00.000Z"
+    "created_at": "2024-01-01T04:01:00.000Z"
   },
   {
     "id": "f2614773-98d2-4c42-a1df-8db13633dccc",
@@ -4317,7 +4371,7 @@
     "series_name": "The Empyrean",
     "series_order": 1,
     "notes": null,
-    "created_at": "2024-01-01T03:59:00.000Z"
+    "created_at": "2024-01-01T04:02:00.000Z"
   },
   {
     "id": "c4be9702-fa8f-49e6-bb6a-2251c3193b90",
@@ -4335,7 +4389,7 @@
     "series_name": "The Empyrean",
     "series_order": 2,
     "notes": null,
-    "created_at": "2024-01-01T04:00:00.000Z"
+    "created_at": "2024-01-01T04:03:00.000Z"
   },
   {
     "id": "b2611fab-38f0-4810-a433-619cf9f5cc95",
@@ -4353,7 +4407,7 @@
     "series_name": "The Empyrean",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T04:01:00.000Z"
+    "created_at": "2024-01-01T04:04:00.000Z"
   },
   {
     "id": "6cf4a5e8-db2b-4253-9f97-2670e131e698",
@@ -4371,7 +4425,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:02:00.000Z"
+    "created_at": "2024-01-01T04:05:00.000Z"
   },
   {
     "id": "c171cea4-8057-471f-8094-a118e0940b90",
@@ -4389,7 +4443,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:03:00.000Z"
+    "created_at": "2024-01-01T04:06:00.000Z"
   },
   {
     "id": "c029eb29-5489-4a87-af7a-bc5e2bcd8297",
@@ -4407,7 +4461,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:04:00.000Z"
+    "created_at": "2024-01-01T04:07:00.000Z"
   },
   {
     "id": "bd67c90d-1ea2-4409-bf9c-d79f4e3b391f",
@@ -4425,7 +4479,7 @@
     "series_name": "Alex Stern",
     "series_order": 2,
     "notes": null,
-    "created_at": "2024-01-01T04:05:00.000Z"
+    "created_at": "2024-01-01T04:08:00.000Z"
   },
   {
     "id": "5c65b761-d951-4dd4-803d-1d843ceb572b",
@@ -4443,7 +4497,7 @@
     "series_name": "Alex Stern",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T04:06:00.000Z"
+    "created_at": "2024-01-01T04:09:00.000Z"
   },
   {
     "id": "dc08fc0d-18b5-4208-8ef8-7325b672c7c2",
@@ -4461,7 +4515,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:07:00.000Z"
+    "created_at": "2024-01-01T04:10:00.000Z"
   },
   {
     "id": "8861b3a4-f5a1-4a0d-a4ca-cbbbbc1a707d",
@@ -4479,7 +4533,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:08:00.000Z"
+    "created_at": "2024-01-01T04:11:00.000Z"
   },
   {
     "id": "d0ec9927-2c8b-4dd6-8ac5-ddbb7b8e09c3",
@@ -4497,7 +4551,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:09:00.000Z"
+    "created_at": "2024-01-01T04:12:00.000Z"
   },
   {
     "id": "7271bd8c-25fd-4f0a-b925-dd51780d2c02",
@@ -4515,7 +4569,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:10:00.000Z"
+    "created_at": "2024-01-01T04:13:00.000Z"
   },
   {
     "id": "976b5c18-cbfc-4b1a-b54b-fd2e361d1d77",
@@ -4533,7 +4587,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:11:00.000Z"
+    "created_at": "2024-01-01T04:14:00.000Z"
   },
   {
     "id": "9a1d588d-01a6-4575-8c74-9471c1c5c71e",
@@ -4551,7 +4605,7 @@
     "series_name": "Perveen Mistry",
     "series_order": 3,
     "notes": null,
-    "created_at": "2024-01-01T04:12:00.000Z"
+    "created_at": "2024-01-01T04:15:00.000Z"
   },
   {
     "id": "e8e6a037-a125-48ef-9598-899ad8c0b811",
@@ -4569,7 +4623,7 @@
     "series_name": "Perveen Mistry",
     "series_order": 4,
     "notes": null,
-    "created_at": "2024-01-01T04:13:00.000Z"
+    "created_at": "2024-01-01T04:16:00.000Z"
   },
   {
     "id": "b39c48df-63d9-4c89-b8d4-c331e6616826",
@@ -4587,25 +4641,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:14:00.000Z"
-  },
-  {
-    "id": "77ddc577-c63c-45ff-9953-a49c1a3d2989",
-    "source_key": "my friends|fredrik backman",
-    "title": "My Friends",
-    "author": "Fredrik Backman",
-    "genre": "Psychological Fiction",
-    "status": "tbr",
-    "rating": null,
-    "date_started": null,
-    "date_finished": null,
-    "cover_url": "https://books.google.com/books/content?id=dezuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "google_books_id": "dezuEQAAQBAJ",
-    "page_count": 448,
-    "series_name": null,
-    "series_order": null,
-    "notes": null,
-    "created_at": "2024-01-01T04:15:00.000Z"
+    "created_at": "2024-01-01T04:17:00.000Z"
   },
   {
     "id": "0d4d2b69-13f7-4cdf-a3b2-cf23d119c06b",
@@ -4623,7 +4659,7 @@
     "series_name": null,
     "series_order": null,
     "notes": null,
-    "created_at": "2024-01-01T04:16:00.000Z"
+    "created_at": "2024-01-01T04:18:00.000Z"
   },
   {
     "id": "dabb7855-9c94-409b-aa55-b6b039ab7d08",
@@ -4640,42 +4676,6 @@
     "page_count": 420,
     "series_name": null,
     "series_order": null,
-    "notes": null,
-    "created_at": "2024-01-01T04:17:00.000Z"
-  },
-  {
-    "id": "2e7fce97-1415-4996-ba76-68076d411b3d",
-    "source_key": "thrive|krista ritchie",
-    "title": "Thrive",
-    "author": "Krista Ritchie",
-    "genre": "Romance",
-    "status": "finished",
-    "rating": null,
-    "date_started": null,
-    "date_finished": null,
-    "cover_url": "https://books.google.com/books/content?id=t9X5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "google_books_id": "t9X5DwAAQBAJ",
-    "page_count": 473,
-    "series_name": "Addicted",
-    "series_order": 4,
-    "notes": null,
-    "created_at": "2024-01-01T04:18:00.000Z"
-  },
-  {
-    "id": "7785e56a-a934-457d-87ff-46e8c8cd13e1",
-    "source_key": "addicted after all|krista ritchie",
-    "title": "Addicted After All",
-    "author": "Krista Ritchie",
-    "genre": "Romance",
-    "status": "tbr",
-    "rating": null,
-    "date_started": null,
-    "date_finished": null,
-    "cover_url": "https://books.google.com/books/content?id=nvCfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "google_books_id": "nvCfEAAAQBAJ",
-    "page_count": 609,
-    "series_name": "Addicted",
-    "series_order": 5,
     "notes": null,
     "created_at": "2024-01-01T04:19:00.000Z"
   },
