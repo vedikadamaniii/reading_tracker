@@ -50,9 +50,13 @@ for (const f of trackerRows.slice(1)) {
   const title = clean(f[tcol('Title')])
   if (!title) continue
   const ratingRaw = clean(f[tcol('Rating (1-5)')])
-  const rating = ratingRaw ? roundToHalf(parseFloat(ratingRaw)) : null
   const dateStarted = toIsoDate(f[tcol('Start Date')] ?? '')
-  const status = rating != null ? 'finished' : dateStarted ? 'reading' : 'tbr'
+  const dateEnded = toIsoDate(f[tcol('End Date')] ?? '')
+  // Started with no end date means still reading, even if a rating was
+  // jotted down early; the rating shows once the book is finished.
+  const stillReading = dateStarted && !dateEnded
+  const rating = ratingRaw && !stillReading ? roundToHalf(parseFloat(ratingRaw)) : null
+  const status = stillReading ? 'reading' : rating != null ? 'finished' : dateStarted ? 'reading' : 'tbr'
   books.push({
     title,
     author: clean(f[tcol('Author')]),
@@ -60,7 +64,7 @@ for (const f of trackerRows.slice(1)) {
     status,
     rating,
     date_started: dateStarted,
-    date_finished: status === 'finished' ? toIsoDate(f[tcol('End Date')] ?? '') : null,
+    date_finished: status === 'finished' ? dateEnded : null,
   })
 }
 
