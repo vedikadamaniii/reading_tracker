@@ -65,13 +65,15 @@ for (const f of trackerRows.slice(1)) {
 }
 
 // --- TBR checklist (same rules as import-tbr.mjs: only titles not already tracked) ---
-// Matching ignores case, punctuation and plural "s" so small spelling
-// differences between the two tabs ("Thorn"/"Thorns") don't create duplicates.
+// Matching ignores case, punctuation, a leading article and plural "s" so
+// small spelling differences between the two tabs ("Thorn"/"Thorns",
+// "The Queen of Shadows"/"Queen Of Shadows") don't create duplicates.
 const looseKey = (title) =>
   title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, ' ')
     .trim()
+    .replace(/^(the|a|an) /, '')
     .split(' ')
     .map((w) => w.replace(/s$/, ''))
     .join(' ')
@@ -124,6 +126,12 @@ const seriesById = new Map(seriesTags.map((t) => [t.id, t]))
 
 const previous = existsSync(OUT_PATH) ? JSON.parse(readFileSync(OUT_PATH, 'utf-8')) : []
 const previousByKey = new Map(previous.map((b) => [b.source_key, b]))
+// A book that moves between tabs may be spelled differently in each; fall
+// back to a loose title match (same author) so it keeps its id and tags.
+const looseSourceKey = (title, author) => `${looseKey(title)}|${keyOf(author ?? '')}`
+const previousByLooseKey = new Map(
+  previous.map((b) => [looseSourceKey(b.source_key.split('|')[0], b.author), b]),
+)
 
 // --- Google Books enrichment (cover + page count), reused across runs ---
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -159,7 +167,7 @@ const out = []
 let looked = 0
 for (const [i, b] of books.entries()) {
   const source_key = `${keyOf(b.title)}|${keyOf(b.author ?? '')}`
-  const prev = previousByKey.get(source_key)
+  const prev = previousByKey.get(source_key) ?? previousByLooseKey.get(looseSourceKey(b.title, b.author))
   const id = idByKey.get(source_key) ?? prev?.id ?? fallbackId(b)
   const series = seriesById.get(id) ?? prev
   const book = {
