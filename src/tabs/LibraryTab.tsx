@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { BookCard } from '../components/BookCard'
 import { BookForm } from '../components/BookForm'
+import { Pager } from '../components/Pager'
 import type { Book, NewBook } from '../types'
 import styles from './shared.module.css'
 
@@ -22,6 +23,24 @@ export function LibraryTab({ books, onAdd, onUpdate, onDelete }: LibraryTabProps
         .sort((a, b) => (b.date_finished ?? '').localeCompare(a.date_finished ?? '')),
     [books],
   )
+
+  // Finished books grouped by the year they were finished, newest first;
+  // books with no finish date go under "Earlier".
+  const years = useMemo(() => {
+    const byYear = new Map<string, Book[]>()
+    for (const b of finished) {
+      const year = b.date_finished?.slice(0, 4) ?? 'Earlier'
+      if (!byYear.has(year)) byYear.set(year, [])
+      byYear.get(year)!.push(b)
+    }
+    return [...byYear.entries()]
+      .map(([label, yearBooks]) => ({ label, books: yearBooks }))
+      .sort((a, b) =>
+        a.label === 'Earlier' ? 1 : b.label === 'Earlier' ? -1 : b.label.localeCompare(a.label),
+      )
+  }, [finished])
+  const [year, setYear] = useState<string | null>(null)
+  const activeYear = years.find((y) => y.label === year) ?? years[0]
 
   async function handleSave(data: Partial<NewBook>) {
     if (editing && editing !== 'new') {
@@ -75,18 +94,35 @@ export function LibraryTab({ books, onAdd, onUpdate, onDelete }: LibraryTabProps
         {finished.length === 0 ? (
           <div className={styles.empty}>No finished books yet — mark one done from TBR!</div>
         ) : (
-          <div className={styles.list}>
-            {finished.map((book) => (
-              <BookCard key={book.id} book={book}>
-                <button className="btn btn-ghost" onClick={() => setEditing(book)}>
-                  Edit
+          <>
+            <div className={styles.subNav}>
+              {years.map((y) => (
+                <button
+                  key={y.label}
+                  className={`${styles.subNavBtn} ${y.label === activeYear.label ? styles.subNavBtnActive : ''}`}
+                  onClick={() => setYear(y.label)}
+                >
+                  {y.label} ({y.books.length})
                 </button>
-                <button className="btn btn-danger" onClick={() => onDelete(book.id)}>
-                  Delete
-                </button>
-              </BookCard>
-            ))}
-          </div>
+              ))}
+            </div>
+            <Pager key={activeYear.label} items={activeYear.books}>
+              {(pageBooks) => (
+                <div className={styles.list}>
+                  {pageBooks.map((book) => (
+                    <BookCard key={book.id} book={book}>
+                      <button className="btn btn-ghost" onClick={() => setEditing(book)}>
+                        Edit
+                      </button>
+                      <button className="btn btn-danger" onClick={() => onDelete(book.id)}>
+                        Delete
+                      </button>
+                    </BookCard>
+                  ))}
+                </div>
+              )}
+            </Pager>
+          </>
         )}
       </div>
 

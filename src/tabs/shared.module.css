@@ -48,6 +48,7 @@
 
 .subNav {
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 0.25rem;
   border: 1px solid var(--color-border);
   background: var(--color-inset);

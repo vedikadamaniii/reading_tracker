@@ -3,6 +3,7 @@ import { BookCard } from '../components/BookCard'
 import { BookForm } from '../components/BookForm'
 import { GoogleBooksSearch } from '../components/GoogleBooksSearch'
 import { Ornament } from '../components/Ornament'
+import { Pager } from '../components/Pager'
 import { QuickAddToTBR } from '../components/QuickAddToTBR'
 import { RandomPickButton } from '../components/RandomPickButton'
 import type { Book, GoogleBookResult, NewBook } from '../types'
@@ -44,6 +45,8 @@ export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabPr
       }))
       .sort((a, b) => a.name.localeCompare(b.name))
   }, [tbr])
+  const [series, setSeries] = useState<string | null>(null)
+  const activeGroup = seriesGroups.find((g) => g.name === series) ?? seriesGroups[0]
 
   async function handleSave(data: Partial<NewBook>) {
     if (editing && editing !== 'new') {
@@ -145,40 +148,61 @@ export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabPr
               No series tagged yet — add a "Series name" when editing a book to group it here.
             </div>
           ) : (
-            seriesGroups.map((group) => (
-              <div key={group.name} className={styles.seriesGroup}>
-                <div className={styles.seriesGroupTitle}>
-                  {group.name}
-                  <span className={styles.seriesGroupCount}>{group.books.length} on TBR</span>
-                </div>
-                <div className={styles.list}>
-                  {group.books.map((book, i) => (
-                    <BookCard
-                      key={book.id}
-                      book={book}
-                      badge={
-                        i === 0 ? <span className={styles.upNextBadge}>Up next</span> : undefined
-                      }
-                    >
-                      {bookActions(book)}
-                    </BookCard>
-                  ))}
-                </div>
+            <>
+              <div className={styles.subNav}>
+                {seriesGroups.map((group) => (
+                  <button
+                    key={group.name}
+                    className={`${styles.subNavBtn} ${group.name === activeGroup.name ? styles.subNavBtnActive : ''}`}
+                    onClick={() => setSeries(group.name)}
+                  >
+                    {group.name}
+                  </button>
+                ))}
               </div>
-            ))
+              <div className={styles.seriesGroup}>
+                <div className={styles.seriesGroupTitle}>
+                  {activeGroup.name}
+                  <span className={styles.seriesGroupCount}>{activeGroup.books.length} on TBR</span>
+                </div>
+                <Pager key={activeGroup.name} items={activeGroup.books}>
+                  {(pageBooks) => (
+                    <div className={styles.list}>
+                      {pageBooks.map((book) => (
+                        <BookCard
+                          key={book.id}
+                          book={book}
+                          badge={
+                            book === activeGroup.books[0] ? (
+                              <span className={styles.upNextBadge}>Up next</span>
+                            ) : undefined
+                          }
+                        >
+                          {bookActions(book)}
+                        </BookCard>
+                      ))}
+                    </div>
+                  )}
+                </Pager>
+              </div>
+            </>
           ))}
 
         {subTab === 'standalone' &&
           (standalone.length === 0 ? (
             <div className={styles.empty}>No standalone books on your TBR yet.</div>
           ) : (
-            <div className={styles.list}>
-              {standalone.map((book) => (
-                <BookCard key={book.id} book={book}>
-                  {bookActions(book)}
-                </BookCard>
-              ))}
-            </div>
+            <Pager items={standalone}>
+              {(pageBooks) => (
+                <div className={styles.list}>
+                  {pageBooks.map((book) => (
+                    <BookCard key={book.id} book={book}>
+                      {bookActions(book)}
+                    </BookCard>
+                  ))}
+                </div>
+              )}
+            </Pager>
           ))}
       </div>
 

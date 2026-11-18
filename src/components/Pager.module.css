@@ -1,0 +1,46 @@
+.pager {
+  scroll-margin-top: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+  margin-top: 1.4rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+.page,
+.step {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--color-text-muted);
+  border-radius: 4px;
+  padding: 0.35rem 0.45rem;
+  min-width: 1.9rem;
+  font: inherit;
+}
+
+.page:hover,
+.step:hover:not(:disabled) {
+  color: var(--color-text);
+}
+
+.step:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.active {
+  border-color: var(--color-border);
+  background: var(--color-surface-alt);
+  color: var(--color-accent-hover);
+}
+
+.gap {
+  color: var(--color-text-muted);
+  padding: 0 0.2rem;
+}
