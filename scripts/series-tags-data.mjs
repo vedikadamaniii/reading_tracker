@@ -192,6 +192,8 @@ export const seriesTags = [
   { id: '61f04417-93db-422d-8335-a034ad936178', series_name: 'A Court of Thorns and Roses', series_order: 3 }, // A Court Of Wings And Ruin
   { id: '7023ae4f-17c2-483b-ae23-85fde84676db', series_name: 'A Court of Thorns and Roses', series_order: 4 }, // A Court Of Frost And Starlight
   { id: '7d37a0fc-3101-4c6b-999c-1fb8a0d9efb7', series_name: 'A Court of Thorns and Roses', series_order: 5 }, // A Court Of Silver Flames
+  { id: 'c0465f99-2943-8e12-af49-aeeab46262be', series_name: 'A Court of Thorns and Roses', series_order: 6 }, // A Court Of Splintered Harmony
+  { id: '5c1d91db-85be-3f57-7bac-a49b148cd70e', series_name: 'A Court of Thorns and Roses', series_order: 7 }, // A Court Of Forgotten Melody
 
   // Stephanie Garber — Caraval
   { id: 'dfcd2a68-6634-470a-b776-737493b959cd', series_name: 'Caraval', series_order: 1 }, // Caraval
