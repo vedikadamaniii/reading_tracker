@@ -19,6 +19,8 @@ interface TBRTabProps {
 
 type SubTab = 'series' | 'standalone'
 
+const PAGE_SIZE = 12
+
 export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabProps) {
   const [editing, setEditing] = useState<Book | 'new' | null>(null)
   const [subTab, setSubTab] = useState<SubTab>('series')
@@ -45,8 +47,27 @@ export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabPr
       }))
       .sort((a, b) => a.name.localeCompare(b.name))
   }, [tbr])
-  const [series, setSeries] = useState<string | null>(null)
-  const activeGroup = seriesGroups.find((g) => g.name === series) ?? seriesGroups[0]
+  // Pack whole series onto pages of up to PAGE_SIZE books, so a series isn't
+  // split across pages unless it's longer than a page on its own.
+  const seriesPages = useMemo(() => {
+    const pages: { name: string; books: Book[]; continued: boolean }[][] = []
+    let page: (typeof pages)[number] = []
+    let count = 0
+    for (const group of seriesGroups) {
+      for (let start = 0; start < group.books.length; start += PAGE_SIZE) {
+        const chunk = group.books.slice(start, start + PAGE_SIZE)
+        if (count + chunk.length > PAGE_SIZE && page.length > 0) {
+          pages.push(page)
+          page = []
+          count = 0
+        }
+        page.push({ name: group.name, books: chunk, continued: start > 0 })
+        count += chunk.length
+      }
+    }
+    if (page.length > 0) pages.push(page)
+    return pages
+  }, [seriesGroups])
 
   async function handleSave(data: Partial<NewBook>) {
     if (editing && editing !== 'new') {
@@ -148,32 +169,25 @@ export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabPr
               No series tagged yet — add a "Series name" when editing a book to group it here.
             </div>
           ) : (
-            <>
-              <div className={styles.subNav}>
-                {seriesGroups.map((group) => (
-                  <button
-                    key={group.name}
-                    className={`${styles.subNavBtn} ${group.name === activeGroup.name ? styles.subNavBtnActive : ''}`}
-                    onClick={() => setSeries(group.name)}
-                  >
-                    {group.name}
-                  </button>
-                ))}
-              </div>
-              <div className={styles.seriesGroup}>
-                <div className={styles.seriesGroupTitle}>
-                  {activeGroup.name}
-                  <span className={styles.seriesGroupCount}>{activeGroup.books.length} on TBR</span>
-                </div>
-                <Pager key={activeGroup.name} items={activeGroup.books}>
-                  {(pageBooks) => (
+            <Pager items={seriesPages} pageSize={1}>
+              {([pageGroups]) =>
+                pageGroups.map((group) => (
+                  <div key={group.name} className={styles.seriesGroup}>
+                    <div className={styles.seriesGroupTitle}>
+                      {group.name}
+                      <span className={styles.seriesGroupCount}>
+                        {group.continued
+                          ? 'continued'
+                          : `${seriesGroups.find((g) => g.name === group.name)!.books.length} on TBR`}
+                      </span>
+                    </div>
                     <div className={styles.list}>
-                      {pageBooks.map((book) => (
+                      {group.books.map((book, i) => (
                         <BookCard
                           key={book.id}
                           book={book}
                           badge={
-                            book === activeGroup.books[0] ? (
+                            i === 0 && !group.continued ? (
                               <span className={styles.upNextBadge}>Up next</span>
                             ) : undefined
                           }
@@ -182,17 +196,17 @@ export function TBRTab({ books, onAdd, onAddMany, onUpdate, onDelete }: TBRTabPr
                         </BookCard>
                       ))}
                     </div>
-                  )}
-                </Pager>
-              </div>
-            </>
+                  </div>
+                ))
+              }
+            </Pager>
           ))}
 
         {subTab === 'standalone' &&
           (standalone.length === 0 ? (
             <div className={styles.empty}>No standalone books on your TBR yet.</div>
           ) : (
-            <Pager items={standalone}>
+            <Pager items={standalone} pageSize={PAGE_SIZE}>
               {(pageBooks) => (
                 <div className={styles.list}>
                   {pageBooks.map((book) => (

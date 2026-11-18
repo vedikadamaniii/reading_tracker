@@ -217,4 +217,19 @@ export const seriesTags = [
   { id: '0f4f589a-a564-490c-b45a-7a76d34a4364', series_name: 'Lovely...', series_order: 1 }, // Lovely Bad Things
   { id: 'dc83674a-1cbc-4880-8d9e-c4b6853ec8a2', series_name: 'Lovely...', series_order: 2 }, // Lovely Wicked Things
   { id: '6a0896c0-7f5c-40ba-b8fb-1de910abecfd', series_name: 'Lovely...', series_order: 3 }, // Lovely Violent Things
+
+  // Ana Huang — Gods of the Game
+  { id: 'd164dc6b-c0e0-4eed-9bd5-b6497e87f284', series_name: 'Gods of the Game', series_order: 1 }, // The Striker
+  { id: '18d664a6-359d-4923-8a0a-55339d480d8c', series_name: 'Gods of the Game', series_order: 2 }, // The Defender
+  { id: '62030384-b7ba-4896-b558-57b66117b05d', series_name: 'Gods of the Game', series_order: 3 }, // The Keeper
+
+  // Elsie Silver — Rosehill
+  { id: 'dc08fc0d-18b5-4208-8ef8-7325b672c7c2', series_name: 'Rosehill', series_order: 1 }, // Wild Love
+  { id: '8861b3a4-f5a1-4a0d-a4ca-cbbbbc1a707d', series_name: 'Rosehill', series_order: 2 }, // Wild Eyes
+  { id: 'd0ec9927-2c8b-4dd6-8ac5-ddbb7b8e09c3', series_name: 'Rosehill', series_order: 3 }, // Wild Side
+  { id: '7271bd8c-25fd-4f0a-b925-dd51780d2c02', series_name: 'Rosehill', series_order: 4 }, // Wild Card
+
+  // Susie Tate — Aristocrats of London duology
+  { id: '275293a5-cbd5-4a0b-b8a8-d2e4adf7b74e', series_name: 'Aristocrats of London', series_order: 1 }, // Law Maker
+  { id: '845bee41-79c1-48da-b34f-8393e9fd959f', series_name: 'Aristocrats of London', series_order: 2 }, // Deal Breaker
 ]
