@@ -20,6 +20,7 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { normalizeTitle, parseCsvLine, roundToHalf, toIsoDate } from './csv-utils.mjs'
+import { extraBooks } from './extra-books.mjs'
 import { seriesTags } from './series-tags-data.mjs'
 
 const OUT_PATH = new URL('../src/data/library.json', import.meta.url)
@@ -101,6 +102,13 @@ for (const f of tbrRows.slice(headerIndex + 1)) {
   })
 }
 
+// --- Books from before the spreadsheet (see extra-books.mjs) ---
+for (const extra of extraBooks) {
+  if (tracked.has(looseKey(extra.title))) continue
+  tracked.add(looseKey(extra.title))
+  books.push({ ...extra, status: 'finished', date_started: null, date_finished: null })
+}
+
 // --- Reattach Supabase-era ids so id-keyed series tags and renames apply ---
 const idByKey = new Map()
 if (idExportPath) {
@@ -179,16 +187,16 @@ for (const [i, b] of books.entries()) {
     source_key,
     ...b,
     title: renames.get(id) ?? prev?.title ?? b.title,
-    cover_url: prev?.cover_url ?? null,
-    google_books_id: prev?.google_books_id ?? null,
-    page_count: prev?.page_count ?? null,
-    series_name: series?.series_name ?? null,
-    series_order: series?.series_order ?? null,
+    cover_url: b.cover_url ?? prev?.cover_url ?? null,
+    google_books_id: b.google_books_id ?? prev?.google_books_id ?? null,
+    page_count: b.page_count ?? prev?.page_count ?? null,
+    series_name: series?.series_name ?? b.series_name ?? null,
+    series_order: series?.series_order ?? b.series_order ?? null,
     notes: null,
     // Later sheet rows are newer; the app lists newest first.
     created_at: new Date(base + i * 60_000).toISOString(),
   }
-  if (!prev || (!prev.cover_url && !prev.page_count)) {
+  if (!book.cover_url && !book.page_count) {
     const found = await lookup(book.title, book.author)
     looked++
     if (found) Object.assign(book, found)
